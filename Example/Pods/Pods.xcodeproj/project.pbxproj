@@ -1,0 +1,2119 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1C2FC429002619765B49219BABDAA94C /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */;
+			buildPhases = (
+				7059A1BA8ECD62C0037E0CCB2ECA627E /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "OpenSSL-Universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AE6C6E5B29A984D1D4084069E48DC /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		010EC6B555F00AC990C46D4E4019B4EB /* KWProbePoller.h in Headers */ = {isa = PBXBuildFile; fileRef = 481B4046DA81C72304102A653E063B02 /* KWProbePoller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0126ED337580101E28E8A26ED4F44674 /* KWGenericMatchingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF5E03F1C3D7B913960302F94DE8850 /* KWGenericMatchingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		021B9C94F6EBD5074380FC2C7B8A5CC4 /* KWExampleNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA679A1A9D50AFA90B4F3E215FC8D9E /* KWExampleNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0402D44147B3DEA1BAFC4EF91577D3FF /* KWItNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D5943E004671A9599113762D8B6109 /* KWItNode.m */; };
+		05F3A6432D6AD96A9BC357C0DBC5F512 /* KWSymbolicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 26AD924DEFD46BA5820A05879A026C5B /* KWSymbolicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C86FCC1314B64540C9F48A1FA0D548 /* KWBeforeEachNode.h in Headers */ = {isa = PBXBuildFile; fileRef = F154E1B3537747F9AF5A2BEA7430DD77 /* KWBeforeEachNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09C0387C6B0EA72FFCE430F93D350AF4 /* KWValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E4415E04AEE2C2B2C8EC8D9A4126594C /* KWValue.m */; };
+		0A3AD1AD88F6A611F70FC084722B21C4 /* KWMessageTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B36A980D08F407783BBA5E209900FDB /* KWMessageTracker.m */; };
+		0A8954F8CF85C7F699C04C73E91A5B38 /* KWSharedExample.m in Sources */ = {isa = PBXBuildFile; fileRef = A91B604326545278A6A9AA3A222BC769 /* KWSharedExample.m */; };
+		0BB33445FD5FB877ED9EF29C70A95EF4 /* NSProxy+KiwiVerifierAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 99174F10C0A1308FBD49FDFA0A917675 /* NSProxy+KiwiVerifierAdditions.m */; };
+		0F89BD3F84DB7DE7B7692F385C295531 /* NSObject+KiwiStubAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 79469EB52CB18CB7F9267682E0A931BB /* NSObject+KiwiStubAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDD32390D53A5F4021643FAF8E0CD2C /* UIApplication+StrictKeyWindow.m */; };
+		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		135EA78DF787D2987A359A3436AAA38B /* KWAfterEachNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F206E9275BDFE6C3CAE71C37742B86E /* KWAfterEachNode.m */; };
+		140C4A4674B8E0142EA1BE39DCE9C101 /* KWNotificationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BACB672284AA3D9B6CE9740D31EDE1D /* KWNotificationMatcher.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 136AA0F1FC5C090B84F7A0ADB81E419D /* UIImage+Diff.m */; };
+		1522D7BBA7124894DE23CAB231B12354 /* NSMethodSignature+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C9D6B43B89D7D56E3007DF9140A934 /* NSMethodSignature+KiwiAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1534AC7B000526A1ACBC728DB3229485 /* KWContainStringMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C861F48D83C18A0D28A2BE1B8C459B3 /* KWContainStringMatcher.m */; };
+		1554D6ED36776337FFDEF32A3EF38807 /* NSObject+KiwiSpyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AAA0E6A44B9CBF271B1404E46AD764 /* NSObject+KiwiSpyAdditions.m */; };
+		16470AAAAADEEE93D204FC21C86AAC41 /* KWBackgroundTask.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F8D27C26ADC27583E4E71740D8BE1B /* KWBackgroundTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17F4A97760C7C00B11E9350DD19AE9EB /* KWPendingNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D41C3A5A2CFC7AAD558170832CF342 /* KWPendingNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19F90082625BF9D282FF0096D2312801 /* KWProbe.h in Headers */ = {isa = PBXBuildFile; fileRef = 790220681454D99C5D326C3B05895E87 /* KWProbe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A4B106381CE27F83257510D7A56F75F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		1B880B7F9E1179C74EE666ED7031C24D /* KWCaptureSpy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA40F9CAF97203EEE974B055B3890D /* KWCaptureSpy.m */; };
+		1D6B9B253C8890A625684F68E61B3730 /* KWBeEmptyMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9AC87A21194640F30DFBB2862D170E /* KWBeEmptyMatcher.m */; };
+		1DA06E9FD118F89543D237F6AE5722C6 /* KWAllTestsSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 036BF88CD34AB0E673A9DA45CC6A26EA /* KWAllTestsSuite.m */; };
+		1E46A04E7DA9733DA22912A2572FBCE9 /* KWMessageTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = D399A6085FF19CE79E3C7C0F12428CBB /* KWMessageTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E6006352BAE6BB4B9F321B6F161B538 /* KWBeforeEachNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F46250FB2A2255C68EBBAAF80958E177 /* KWBeforeEachNode.m */; };
+		1ECF1E22DA5C464156858B0A6B4F142D /* KWValue.h in Headers */ = {isa = PBXBuildFile; fileRef = D6832BD5202C92989B91351D3CE15C23 /* KWValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F55517A6C558E7584BA3F2ABFFF0305 /* KWBeBetweenMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CAB961D6540D3960A6DD90C99F6D1E /* KWBeBetweenMatcher.m */; };
+		2194598279B8D7D3190D31A788090D84 /* KWSuiteConfigurationBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2678157D1A8696B2F1BDDAF2232C3B /* KWSuiteConfigurationBase.m */; };
+		227E6349C52D58B07C718EA8528EFF1A /* KWLetNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4A24FA11779480C27CA188B4DD4ACF /* KWLetNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2321896CDA4A2E4393878446B0E31C41 /* KWMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DA8EA63F5D88C30C021B23AADC03E0 /* KWMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		259AD097F124BC66C716E804A924E1AA /* KWUserDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DB02329DBA8EF551229E8EE1CFBDAD2C /* KWUserDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		274C5E5824CD5877521BDA5E3DE0E96D /* KWStub.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CDFB0DF71E04AC5923B18830B71E470 /* KWStub.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		277F493F2093FCAEA4E8EF2F8712F9EA /* KWIntercept.h in Headers */ = {isa = PBXBuildFile; fileRef = B81133F0A56562EE4B1AE9B5E0C46F5B /* KWIntercept.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27D6B36B293DC8603F9DECBD03076AC6 /* KWSharedExampleRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFBF01C3F5155A19B99B746D1240A78 /* KWSharedExampleRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BC0268C8876709176605DE2124D68D /* Kiwi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 883AEBC68688E703DF4F86017B683DA7 /* Kiwi-dummy.m */; };
+		2CC0CF3444006977E8B05AC1D254194A /* KWBeZeroMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 922CB784873CA4D9EDC1EBC13159F151 /* KWBeZeroMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC8C105975A9E172608D2206C795FF7 /* UIImage+Compare.m */; };
+		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		32E3575A9536CB741D117DBA6EBC150C /* KWCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7370A5059382736622B941F5625B3AFF /* KWCallSite.m */; };
+		330BF28E26860EB055FBA85D740D341B /* NSMethodSignature+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC141E9FDF9C36CAEF524BEBA3657F /* NSMethodSignature+KiwiAdditions.m */; };
+		35C95F7F81A7FFE79D6650FD82D4610B /* KWAfterAllNode.h in Headers */ = {isa = PBXBuildFile; fileRef = EB13AB9C543CDD48528698B4A6BD6C27 /* KWAfterAllNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		360D800C0A08D1055223E42C5E260EC8 /* route.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC5E54A05E35814BBF3BE1CC0FC09BC /* route.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		372EC42F7FB975320D68540062E256A2 /* KWObjCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 233826D0F79698930D2212A7B22058FD /* KWObjCUtilities.m */; };
+		37A9A76AB5CEB06D313A6BDA7D52A1C3 /* KWFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C0040C558434561B153A32D12B870D6 /* KWFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38382C95F957B7B460A225F97314EB82 /* LibOpenFortiVPN-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDE73CC947EE831C36999253DDDE258 /* LibOpenFortiVPN-iOS-dummy.m */; };
+		38AF6FD44DB99A5BBA70A8F6601E567C /* KWMessagePattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BFFA8CDD3AF195DEAE1E60C25DEE94 /* KWMessagePattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		391BF90859DB31D4A558D706732DF4FF /* KWContainMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EB0A01116DF33752C0C8143D831639 /* KWContainMatcher.m */; };
+		39505DF6C694599E509E1B6C60958484 /* NSObject+KiwiVerifierAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 241F3C807899E7115BBC8D35000D396B /* NSObject+KiwiVerifierAdditions.m */; };
+		39A79E4068D67CFE215FF9FF8F50DFD5 /* KWStringContainsMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5AA605ADC5FA48109D83FB02493B36 /* KWStringContainsMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DBBC198220A6E99781CADC3189D36E1 /* KWHaveMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A73F88D00A1C6A99645F027919FDC2C /* KWHaveMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC4A32E9F870135C404D03A269593DC /* KWBlockRaiseMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B728D8FBBDFC31494724D580E89CE2C6 /* KWBlockRaiseMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E2076BC8C4EEC622C5E0D37BF27B1E9 /* KWGenericMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FEC828FA04F8C00ABF66914BA3A014 /* KWGenericMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FB4039D2D92A4693C4C4894CB66A46E /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		414243899C81B333165CB466A2E73821 /* KWIntercept.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2A1DFDC0CF071F64A5A7D536C51148 /* KWIntercept.m */; };
+		43B4E2C1BF9691AC2DC509EAAD94BC15 /* openfortivpn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0D5CFB17DE3B0E01174AF8F2D87E3 /* openfortivpn.m */; };
+		43B68665C1621C18EF9729CB1E3B7708 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		43D2FD32F4C2329586ED7334C4C1ED1F /* NSObject+KiwiSpyAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 512D32F7473239A272AE7103A70E2F96 /* NSObject+KiwiSpyAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		474964AA92753899777639AB723366B4 /* KWMessagePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD222818CC360171035110E85181C5E /* KWMessagePattern.m */; };
+		4B64055584AB1F88524BD84012CFD965 /* NSInvocation+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A6D64DB830A42E4A1344BA6D57F247 /* NSInvocation+KiwiAdditions.m */; };
+		4BD42FEB504CFF4EDCACAA6A90F2296B /* NSProxy+KiwiVerifierAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE7ACB263B2574D866F9E2AF2E488E9 /* NSProxy+KiwiVerifierAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4DAA92870FEEBDB9DA3E047C0DD239 /* KWMatcherFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9D0664C1FE416A5E997F8A4DC5A7FB /* KWMatcherFactory.m */; };
+		4D6375C59CBCA243A9826C6773FCDC82 /* KWBeBetweenMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9139072FC7CC8FCF7777A3D2AA96263F /* KWBeBetweenMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50421FA8B8D6FC0784354E6A21DD040C /* KWEqualMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 996175385139D7F7B2E9DEDE5AB91BBB /* KWEqualMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F5AFEBD9637164EBF1087C93B5181E /* KWMessageSpying.h in Headers */ = {isa = PBXBuildFile; fileRef = BED5BB09CE08820507BA89BEDC357706 /* KWMessageSpying.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57A7717712B5C39EDAAAF3BD849705D4 /* KWBlockNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 204A68F55CCA7BC4BD91F9260547766C /* KWBlockNode.m */; };
+		581845A1F686A720235F16F6917B7089 /* KWBeSubclassOfClassMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE33B7AE583E62F0314C1C22E97F2A1 /* KWBeSubclassOfClassMatcher.m */; };
+		5971948A685E206168F8D78483F52F18 /* KiwiMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 06798A97783911C02E231B407E44E149 /* KiwiMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5971C7965ABECFD046D4121ACEA0C3EF /* KWStringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7645C588DDEDCB63AF4DBAAFD1298F /* KWStringUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59752ED9904709AC0EFEE6BAC5C93CDF /* KiwiBlockMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A65E67C5F673D1AD7AFFC0C2071FE0E /* KiwiBlockMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AD6AFD0A674F7FDFDA6D7BD452BB771 /* KWSharedExampleRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 93497CB54A9404A8972AD134F503F448 /* KWSharedExampleRegistry.m */; };
+		5BCE6A3C3798DC89B07C3CD4CAC8CD97 /* KWNull.h in Headers */ = {isa = PBXBuildFile; fileRef = 979DB46DFBA7B8818C2340BDE8968DD3 /* KWNull.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BFF4F31AD167C8256DF656382E89012 /* KWGenericMatchEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = 01077955F21B4843A46B19EC644C59C2 /* KWGenericMatchEvaluator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C6C99F70342BB36C5793E7C2B458C64 /* KWContainStringMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E316366A41419FC04F7BA08B1DEE2504 /* KWContainStringMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DD1E2F3EDA2571C6CBC6F33C0398E25 /* posix_spawn.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C7C609D3D4A0F14B1BF7BF1580E9E2 /* posix_spawn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F9A6B1F251E54709B343621609655C6 /* KWReporting.h in Headers */ = {isa = PBXBuildFile; fileRef = F6860291F8D3A6CBFF5AA79E26588BC7 /* KWReporting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		604D3F76D9400BDEFBC6587EE6827933 /* KWBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 550684F8632711922362E39111F8F554 /* KWBlock.m */; };
+		634278532B85AB8514393C79C0F332B6 /* KWSymbolicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EBCDA8621DF26F8A94FD8096D35B47 /* KWSymbolicator.m */; };
+		634876E37E67D3C424AD37CE4C7F516D /* KWVerifying.h in Headers */ = {isa = PBXBuildFile; fileRef = B5563438AA49B52A2CBBC4D8681899D1 /* KWVerifying.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63EA00AA88B1C1E1522DE59D30EF3F88 /* KWAfterAllNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E21C2680EC14B0CCE35AAF04F2F6C46F /* KWAfterAllNode.m */; };
+		6470B1951B36628BD20835DC70A28DEF /* KWReceiveMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = A14DD8F0566E45B59CA86600B5C08686 /* KWReceiveMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64BD03CF1DA9F58367DB782BC0FCDDAA /* KWBeKindOfClassMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1469A33475C38FBCF4C0BCF5E4649A /* KWBeKindOfClassMatcher.m */; };
+		64D229C3BC5DD74CE975E2F18041D42B /* KWConformToProtocolMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F125EBBCACD8811FE2BAFBD2239D44D1 /* KWConformToProtocolMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		663DADA69252F2E777BCE43FD77B0B62 /* KWRegularExpressionPatternMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7207DA8F3C1FA748222E7BF4BAB7BE /* KWRegularExpressionPatternMatcher.m */; };
+		6689343D2AEB0A1077D928057FFFE95D /* KWContainMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 476C517A166423DB4A6899BD944D5667 /* KWContainMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D8BAAB107E25FBC0EB65842279CAF7 /* KWStringPrefixMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0E8E4179BDD4F2D6914BEE6ECA5D11 /* KWStringPrefixMatcher.m */; };
+		67B3C173EF40BA3D141885C2625CA232 /* KWWorkarounds.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A6161A83C99E12B953ADDF33FCB7C9 /* KWWorkarounds.m */; };
+		685F2A847E0E5CE1E7C3EDA97C05E0DE /* KWRegisterMatchersNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4F5A3F342C91350D11ADA150A7495 /* KWRegisterMatchersNode.m */; };
+		6C32F04CB5E5F03C50F9598786ACD882 /* KWBeKindOfClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B390D978A9A2509BA16936F50351C37 /* KWBeKindOfClassMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C59F4AC4CB08BA5DA5F04AE59C5CEA6 /* KWNilMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CE78CED18CB79796B7563D34425901 /* KWNilMatcher.m */; };
+		6CE8F545FA4F0D77F488BAF11D29510E /* KWBackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8947C3724EEA9F4D8DC56E1448904FB3 /* KWBackgroundTask.m */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B71A000C99358F301FBCD199D6DD84 /* FBSnapshotTestCase-dummy.m */; };
+		6EA2C946AE0F26E4109D53B0233B6432 /* KWBeIdenticalToMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 81BE3548DFD6A5B79304822E6D64F915 /* KWBeIdenticalToMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70B0C01F7127743A957368494017A043 /* KWBeMemberOfClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D513056D95625DD5149D84028220D49 /* KWBeMemberOfClassMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70CA03A9BC00435AAA53858DDACAA31D /* KWBeZeroMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC8261C1E7A904E1B6517A5649FA34E /* KWBeZeroMatcher.m */; };
+		716BF643B9E590E9EDC71DCD0477CD09 /* KWSharedExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 68202D8AD5862ECC82826C9A9CFE3F76 /* KWSharedExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72EE785E78F6BBCFB8DE91CE18804624 /* KWCountType.h in Headers */ = {isa = PBXBuildFile; fileRef = AE93A31947757122241802EB96EE2A9C /* KWCountType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73258C154A2B1CF97BC0BAB685705899 /* KWStringContainsMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EF91AC3FD42AB9696ED428F2800800EB /* KWStringContainsMatcher.m */; };
+		73FB3C41ABF9FFD350B7A8658482F7C7 /* KWAsyncVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 47164BA7061455517ECC415D3B941F77 /* KWAsyncVerifier.m */; };
+		75BEDE54BF96BF5148558E48D545F14D /* KWLet.h in Headers */ = {isa = PBXBuildFile; fileRef = 253E4458768FAF7EAEA13F77BD1B5744 /* KWLet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7624F1D59A0863C620767DEF22A57A99 /* KWNotificationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B52B05FFDCEA490ABE7E9EBC996CDC28 /* KWNotificationMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		799257E82809153DBE82AF57853D8F05 /* KWWorkarounds.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE7B50DC266CBE90AF50EF256E10A5D /* KWWorkarounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7993296EA10A8124D949B0185943CC0C /* KWSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A1538287AC074416BFEF8FDE78EDA5 /* KWSpec.m */; };
+		7AD683BC36504E7DD2CD6B87653035C1 /* KWBlockRaiseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CF9EF4CEBB511F0A67554800A99C83 /* KWBlockRaiseMatcher.m */; };
+		7C6E533F74BFE85EE532BAFF2C49771E /* KWAny.h in Headers */ = {isa = PBXBuildFile; fileRef = 09216DBBD58301D4F5ED7D79A2A924E2 /* KWAny.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EBAFD889907C5F0B9327119564AE205 /* KWBeSubclassOfClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 82082106DB9ECCEA4E268EF046081C2F /* KWBeSubclassOfClassMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8287FC563E1817CAD9ABC02A25E55280 /* KWMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D6228763940B0FCFFD49D1ED0158059 /* KWMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178B43298D3392BF60EE4B0DA5D22E1E /* FBSnapshotTestController.m */; };
+		8A257B2F83D8881164C8B479398CC720 /* KWExampleDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C7904750192B45B24C1A4FA0E70D9110 /* KWExampleDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AF38478B686878D7179B8D73E7DCBF7 /* KWAny.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FFDFCDE92E1DF1486D49BBDB09DE7 /* KWAny.m */; };
+		8BF027B676130A01572134A15F8AAD21 /* KWStringPrefixMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6A09EFE96894026F7CDDADC43190D6 /* KWStringPrefixMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C11D687BD5E286E9F76D1F726A7FC20 /* KWNull.m in Sources */ = {isa = PBXBuildFile; fileRef = A16B2FE953847329F0E2747FF48E45DD /* KWNull.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CE0FE8ED28F82A73248634DAFF278F /* FBSnapshotTestCase.m */; };
+		8D04DD37703C899A71CE8D9A05727B7B /* Kiwi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BDC4EC0E72E2E0EA1FB43F4F6BE59F4 /* Kiwi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E6C4D032491E68AEEF5846F86A3BE45 /* KWInequalityMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7006D6BC4A83492D0BA7BB73A76BA9 /* KWInequalityMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 308FA366627EA5AEEE1878015DFFFADC /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		903540921F03545548F0970C5E8B1F28 /* KWFutureObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9366DF1ECC21B8DB953820BE8F19B5 /* KWFutureObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90383DD2AFE2FD10607F8C4FE66A355C /* KWObjCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C35F44100B4B4996F10BA4442A0F841 /* KWObjCUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91405C26439B58E076BDEF14BB1C9B5E /* KWDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEB72EBCF5D166A9AEC66276C13FF03 /* KWDeviceInfo.m */; };
+		92A4194733AE8CC11D288884A385BA04 /* Pods-LibOpenFortiVPN-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1548F261DC6CC284C18DF8CC8E1BF5F7 /* Pods-LibOpenFortiVPN-iOS_Example-dummy.m */; };
+		94BAD668A2B5BFBD7C427E4083DE07A5 /* Pods-LibOpenFortiVPN-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7ACA018F3059E0F999D9AE009D77D6 /* Pods-LibOpenFortiVPN-iOS_Tests-dummy.m */; };
+		96351348E49352FBA8B490C8769AC621 /* KiwiConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = CE844249EF47491CB99A3069CE17271C /* KiwiConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		963BD6B20F679F45D27BCA4FC779D657 /* KWRespondToSelectorMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA304E4583F8B10D885197CEA104A3B /* KWRespondToSelectorMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97EEF22535542FE1B2301BD2B7B7FEFB /* KWReceiveMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A9ED89B29195C9B7A1575B46B6C81E /* KWReceiveMatcher.m */; };
+		983282AB31C5998FDAF10A0993B0A5B3 /* Pods-LibOpenFortiVPN-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2530A16693EC0107F0EC0E818297F61D /* Pods-LibOpenFortiVPN-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9965402CD632BD72693CC1E8E33760FE /* KWEqualMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D8432C693C9B19991A54063E6CB3D798 /* KWEqualMatcher.m */; };
+		9BE510567463378117AEE88847E32E0D /* KWBeWithinMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8242CE3B8813CD5C4EE7EC3137387140 /* KWBeWithinMatcher.m */; };
+		9C0CB5F3585F2EEE47BB69EABE75509A /* KWMatchVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 805525CB47205371AC34CDB1105BD156 /* KWMatchVerifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CC486B32DC5A91C62203DAD4F5DB5D5 /* KWMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 52843219704807B2D9E985540FF6017E /* KWMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2B440273158890A11E463218C31102 /* SwiftSupport.swift */; };
+		9D8DF4E2ECAF6D8BB1E01F26E94865D5 /* openfortivpn.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2B4314703ACDDA9A311055314268F8 /* openfortivpn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DB6475A75D8BA4D87259A4F29B6C351 /* KWMatching.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A3F81C3C238AC910E59C8448F06F09 /* KWMatching.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0EEEC22DBC3D949594AEB606ED00DE /* KWStub.m in Sources */ = {isa = PBXBuildFile; fileRef = EADD8E75A6CFC61FEC317732982E045D /* KWStub.m */; };
+		9F39B5A1041D6E616F98FBDFF33C7076 /* KWFutureObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A8773E95CAFC2369A55271E919338 /* KWFutureObject.m */; };
+		A050D45168414CD41456BD20D6156C46 /* KWExampleSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = E81CBB61B7626AD7AFD47EB66A6BFA52 /* KWExampleSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A131705D620AB9C3D37239DF42D3DAEA /* KWItNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B74F523A55EFBE65D3A3F88F76FD8D /* KWItNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1C9BEC0342F17D6203BAF7D227DFBB4 /* KWChangeMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D6564F4E672F2A855477CA1AB5648F /* KWChangeMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C3D9F8954FA07AD437585E1BEA166E /* KWStringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2C061EA182B61377DF0DE408D61EE /* KWStringUtilities.m */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F0DFA12D8AF995113DADD448C1E56B /* UIImage+Snapshot.m */; };
+		A64AF6D8D7FDF7CCDCCFDE4815C60845 /* KWBeWithinMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CF410728D7F315072D9D1DF842470AF3 /* KWBeWithinMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8C9BE424056D289238670BB20A890AF /* NSObject+KiwiStubAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1EC949CD18B033A6CABBE8C6E2741E /* NSObject+KiwiStubAdditions.m */; };
+		AD44BB99BF06DE413AE315F92EC9A6E5 /* KWAfterEachNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E04EE54701A75AFA06F68FA5C29BF6CC /* KWAfterEachNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE532310996636161043150B87515528 /* NSObject+KiwiMockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC216EF7850ABC2B8DEB9B35B43B7997 /* NSObject+KiwiMockAdditions.m */; };
+		AF25E5D924F51A3065C9862AB4BFC9B6 /* NSInvocation+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AF588B2A4C9CC7E9DD778C773CE203 /* NSInvocation+OCMAdditions.m */; };
+		B04CC1FAFDFA41EACEDAC81FB5FA2E1A /* KWConformToProtocolMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BBC6A57B2E4E6C15DC7416A3BE4CEE /* KWConformToProtocolMatcher.m */; };
+		B05DCB97D87DBFB9CA8C11810FB93647 /* KWInvocationCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 685D2C8829DEC8529176C3F9BBF81EE6 /* KWInvocationCapturer.m */; };
+		B0BE797282690E7F23A1CF735339B1DC /* KWAsyncVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 6571EA2020BAB124E66B5B970C83F334 /* KWAsyncVerifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0E599AA2DBC19E30881FD8A7F52643B /* KWSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 2273A5ACC1AA1C41399421602B7E719D /* KWSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B145A7EF00ECDBAE9F5C2771B47AA8F1 /* posix_spawn.c in Sources */ = {isa = PBXBuildFile; fileRef = 92CC2309D24E0EC83E32F7D756A73F3C /* posix_spawn.c */; };
+		B2B6A46771616C156BD3BDC483A764E8 /* KWExistVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B977EB83571037462FE4200C31AB4B2 /* KWExistVerifier.m */; };
+		B2C2DB49C3236CBA2A9F80891C7D6B7E /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B8F53665D8B78391BFC783D70401A0 /* NSInvocation+OCMAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3EB8A7C8E9BBB86796C510162D455B5 /* KWContextNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CCE2085244D7FBC4230F7435EF7B8C6 /* KWContextNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3EFDFDBFC4E5B58C48BDDE8557658C0 /* KWExampleSuiteBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E21A40C7CAEEB9476AB7AAFBFBBBE65E /* KWExampleSuiteBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B58E0763D927BD1A56DE9B3C48EB75F3 /* KWBeforeAllNode.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6CA2E55409077DDD0A67A08A9F86C1 /* KWBeforeAllNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B66505741DBB031A8C61F7B1BEDA9888 /* KWRegularExpressionPatternMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C88D656F0723ABC73EAFF6D6DACE6CA /* KWRegularExpressionPatternMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6C52EE7C38E5C22B724F70B5A11E060 /* KWFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 810685B6652A616BF33B90C7E02F4E05 /* KWFormatter.m */; };
+		B73248255BD327AB8883693C5570D70D /* KWExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D99C77050E187E2CC746ED4E1A12C /* KWExample.m */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 5464BF920B5909E7F3CCD161F4640375 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B9161BFE6F0299FDF02F097ED8EC904E /* KWInequalityMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C03CEA431CE677591FF7B03EF1C18BA /* KWInequalityMatcher.m */; };
+		BB035E1FE93185F9259EF1DD9CC16F8A /* KWBeTrueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8E533F823AE195FB55FEDCC5293D5 /* KWBeTrueMatcher.m */; };
+		BC947B8BE47D3AD0B2D25F8A779E73C2 /* KWUserDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4371556249E55F48B655C7D45E63C963 /* KWUserDefinedMatcher.m */; };
+		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		BDCE2F2B774D6A199CDC81640F92E1DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		BE678BBFEF6576AF4BB72AF2C4FB673B /* KWLetNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EC3514BA08CC0A947FBC94B3B57340 /* KWLetNode.m */; };
+		C015416161F6C15368919102BAB3A6DC /* KWFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = 384AB620C354999D36F1587F2A1470F3 /* KWFailure.m */; };
+		C056FD8ADE6D8D54E2F221FD59774979 /* KWExistVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 748EA4C74A23225D2E5A7AA095465FE9 /* KWExistVerifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C081EEB4B2853519BD5D4A998CA569E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		C15A07F0EAC150AED92F3C598EAC1843 /* KWInvocationCapturer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4720C7EE65B8543CD72C6D8DCBECFC1C /* KWInvocationCapturer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2F9A8B71949A643B4C16757CDB9EAA6 /* KWPendingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A16AC001F58DDCC81EE28D1019EAB6C /* KWPendingNode.m */; };
+		C3217811697384BE9FA9F9589CCA6A25 /* KWSuiteConfigurationBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B02A58C6B9FA1CBBDDC2E244BCC1625 /* KWSuiteConfigurationBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3531590FC8C19F031BA711156BA8F82 /* KWProbePoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1C9589D0C3EAA13195A571FD7CBB7 /* KWProbePoller.m */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 0945894F51ABF48EC54248FEE248FFBB /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7A3E1F157DAC1639FB646D161D16BDB /* KWHaveValueMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE224D40BF5973727879C3B66D0E2A6 /* KWHaveValueMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C800B03CDB011C68C4CA9FEE0796DBAA /* KWExampleSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5116906D7BC8FFF28A5825511DA41779 /* KWExampleSuiteBuilder.m */; };
+		C8D0644E3AFCF616220FF72135553713 /* KWCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC25527C8BEEC57A795FBF2F77957AF /* KWCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA5D1E23D5BEFC0710DC5E3876617B79 /* NSValue+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 101A7F2EEB7574C1E8AF1492AEC9CCA1 /* NSValue+KiwiAdditions.m */; };
+		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		CB8C3468AF77128202FA7B7701587B9C /* KWGenericMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC91272BC66E6D389CE673D4577A935 /* KWGenericMatcher.m */; };
+		CBF1FE276824F04BAE37B176F3D3DE47 /* KWRegisterMatchersNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 10CCC3E2283AD8F6727DE24235AFF41E /* KWRegisterMatchersNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC8AA92193334642725524E81D3C8436 /* KWNilMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0E22F726F1815181058D55A57E588A /* KWNilMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE3EAE3FCFF63A5C8B06FC698E134D29 /* Kiwi.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B04900920E050735E2EE7845D06CCF /* Kiwi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF140EDB27E0D81613EF78E132B0D23E /* KWChangeMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CA592DEDE800A38CFAAA119F69187A05 /* KWChangeMatcher.m */; };
+		CF87111CE5A447A27DA89FC288C9654C /* KWBeTrueMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D29ADEEEF92DA42F02F0C06CBB6ACA3D /* KWBeTrueMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E09CBB3D795F53478AB1165BCB9DDB7D /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D1D60073397B1E4EFDD65B4D2E9F4212 /* KWMatchVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F5882D4EE04CEF8D1EFFCB53303B26 /* KWMatchVerifier.m */; };
+		D74FEFEAC09F1E5ACA2EA0C5CE3C94AC /* KWExample.h in Headers */ = {isa = PBXBuildFile; fileRef = C4F9BFE71E134EEE16063A8E1EA57546 /* KWExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94C70E221BC494D370A7203F5D688A7 /* KWBeIdenticalToMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CF363FB675FDDA536E9236D39BD880 /* KWBeIdenticalToMatcher.m */; };
+		D9B66A7DBEEA77D032679B600DBD4602 /* NSInvocation+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F581F03F6E54F9044FD22D6E7DADE31C /* NSInvocation+KiwiAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2783810E744F94967DCED028BA77CB /* KWCaptureSpy.h in Headers */ = {isa = PBXBuildFile; fileRef = 451785A4D3BBE6595ECB502FB901CAD2 /* KWCaptureSpy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBB592B1BD73EDAAEE38221449304DCE /* KWBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C8D4337E88A9D18CFC623C0122BB11 /* KWBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC3EC162647733328D396C9177BB0A6D /* KWContextNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A501F412282D730A93F56F8476128BE /* KWContextNode.m */; };
+		DDA69A0525223B5F0CDDEF4AD2EDC2B9 /* KWFailure.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D6CF35560DFC9E10C69FC0D586F3274 /* KWFailure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE342F20458568184635D89A7FDAEA1E /* NSObject+KiwiMockAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61052D2EB5540CE4595687FC6B2DA7AE /* NSObject+KiwiMockAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE4CFA31A9EB08CD815C95D088F6D939 /* KWGenericMatchingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7B5D748177207732579DE57681AED2 /* KWGenericMatchingAdditions.m */; };
+		E022211844E729C2ABE05587E5549123 /* NSNumber+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC3679BF2B61602F5A8EAB1596EBAD7 /* NSNumber+KiwiAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E058B31F77ED224A3E918CA35EAC5CAD /* KWMatchers.m in Sources */ = {isa = PBXBuildFile; fileRef = D738B1FC0406148AC0AE55AA1DDC90E3 /* KWMatchers.m */; };
+		E1CFF55C840ED2E80F857A22A6F402E3 /* KWHaveMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE21CE94822B10C9DF9A5962BE0F684 /* KWHaveMatcher.m */; };
+		E30E786E3131F0C739DAD0D825D13C96 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		E45CF267D414F4A208D2DB10B644F759 /* KWBeEmptyMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E69AB1C4ECACD8DE7C9A4BD6AA789A44 /* KWBeEmptyMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7C6ECFB9A10355719DF24E3DCB4A68D /* KWMatcherFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = EA516A398ADD68A04BDB0BD2320FBE88 /* KWMatcherFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E82DD477DD5E9D6737DA37B7D85BD040 /* Pods-LibOpenFortiVPN-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB179E1AFFA7CB674EFBDF400DD31037 /* Pods-LibOpenFortiVPN-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FE4C038DE0C0584EB96EE75588EBCC /* FBSnapshotTestCasePlatform.m */; };
+		E998F0F10622A3CEA80994C40710B8C2 /* KWRespondToSelectorMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE9CFA69EA0FBE40DF03C8C8CD41C6 /* KWRespondToSelectorMatcher.m */; };
+		EEDE056012B63DECAC72AE81915043F6 /* NSValue+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 74BEE4FE4EE6E8FDB1AA1C4F832B1177 /* NSValue+KiwiAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F01997A184CBF40E97331FF67E025FB6 /* KWExampleNodeVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = A97581D520CDF6E34AD5B7B8C05C05A8 /* KWExampleNodeVisitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = DA74BF7E55A6555E8783FEF838BE8E3B /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F1C020303266EC09EC264C770DB169A5 /* KWGenericMatchEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = CD129962B664C35B2339D454EFB6569A /* KWGenericMatchEvaluator.m */; };
+		F4119860C85F3B9D1A300DFD99C845EA /* NSObject+KiwiVerifierAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E1FBAFC67575D59459ACD477B5CA90 /* NSObject+KiwiVerifierAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6C957D37D7F0706199245650139BE59 /* KWMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AEFF3A6F599795CB8BBAF26CB53307 /* KWMatcher.m */; };
+		F6F372577C48AE7FD66B3D6DD2E32383 /* KWBlockNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC8EE8CE1E9F9A8486C647C7486C7F6 /* KWBlockNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F701D25209C4F89C10B4ACE0DBC3393F /* KWMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 961ABEAB32D9C08F612287C4501E3F70 /* KWMock.m */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E594C206A6F7418AF00C7198B10EC12B /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F73946A95EF21C2645C636B099E26062 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E32494CFB725F65FD5D57CE2EBACE5 /* ReplaceMe.m */; };
+		F9365645888FED2FCADAB946040DA004 /* KWBeforeAllNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1052DD471DE87D6EDD4B7705947168 /* KWBeforeAllNode.m */; };
+		F9D4FCB1A3FB0B4D7A6E55EE82BAE7DA /* KWExpectationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5160A6887C12ECA623070E13AE4A0D54 /* KWExpectationType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA6BD8968C77C0F6C7A7D5C8F6A08B40 /* KWDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F8565C4238AC0A55833EC181E591AA /* KWDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAA837BE5A676F9E6DF6DC11632D1EC5 /* LibOpenFortiVPN-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C9A7746E7E72065C41CAB6E9AE1926 /* LibOpenFortiVPN-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FADE3A8DB197FEB93BB865324AB90B25 /* KWBeMemberOfClassMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6BCD479B951AF3C1EFCC688D8762D3 /* KWBeMemberOfClassMatcher.m */; };
+		FC251E1F0E59D0212874296CEF5C90F2 /* NSNumber+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D6E545B93AA367643EDF23B438BEC3 /* NSNumber+KiwiAdditions.m */; };
+		FD677AD2E0A801400AFE773337921313 /* KWExampleSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F175CE697560C64503F69B02C3A0D6 /* KWExampleSuite.m */; };
+		FEC731DD8CD6A0C74054CCCE16204D25 /* KWHaveValueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA562A803A022628F6CD89BA5D576E4 /* KWHaveValueMatcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45CED6BFEE6F31E2F6DE5FADD8197EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		912360CFE1DA039035AF6CC17C66423B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+		97A28420801A538925306055CCFB5339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A4060DC193E269FE369F036E4781A9;
+			remoteInfo = Kiwi;
+		};
+		9CCDC7BC0ECCDFEB2B7B04D72268A808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+		C03288158BCC4E3F8E27D956F18EA0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52797B8BC8031C744D59535DA02AC42;
+			remoteInfo = "Pods-LibOpenFortiVPN-iOS_Example";
+		};
+		EF00C2C41FBA786CF99E64A3F632C431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81F5FCEE536D5856B11A5F094E9F009;
+			remoteInfo = "LibOpenFortiVPN-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EBCDA8621DF26F8A94FD8096D35B47 /* KWSymbolicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSymbolicator.m; path = Classes/Core/KWSymbolicator.m; sourceTree = "<group>"; };
+		01077955F21B4843A46B19EC644C59C2 /* KWGenericMatchEvaluator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWGenericMatchEvaluator.h; path = Classes/Matchers/KWGenericMatchEvaluator.h; sourceTree = "<group>"; };
+		01FEC828FA04F8C00ABF66914BA3A014 /* KWGenericMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWGenericMatcher.h; path = Classes/Matchers/KWGenericMatcher.h; sourceTree = "<group>"; };
+		036BF88CD34AB0E673A9DA45CC6A26EA /* KWAllTestsSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAllTestsSuite.m; path = Classes/Config/KWAllTestsSuite.m; sourceTree = "<group>"; };
+		03B06BEC3BB00C57F15D3CCEB4BDCC45 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		06798A97783911C02E231B407E44E149 /* KiwiMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiwiMacros.h; path = Classes/Core/KiwiMacros.h; sourceTree = "<group>"; };
+		09216DBBD58301D4F5ED7D79A2A924E2 /* KWAny.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWAny.h; path = Classes/Core/KWAny.h; sourceTree = "<group>"; };
+		0945894F51ABF48EC54248FEE248FFBB /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		0B02A58C6B9FA1CBBDDC2E244BCC1625 /* KWSuiteConfigurationBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSuiteConfigurationBase.h; path = Classes/Config/KWSuiteConfigurationBase.h; sourceTree = "<group>"; };
+		0B36A980D08F407783BBA5E209900FDB /* KWMessageTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMessageTracker.m; path = Classes/Core/KWMessageTracker.m; sourceTree = "<group>"; };
+		0C03CEA431CE677591FF7B03EF1C18BA /* KWInequalityMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWInequalityMatcher.m; path = Classes/Matchers/KWInequalityMatcher.m; sourceTree = "<group>"; };
+		0C26E0179F81C13A342E1D93EE7708D4 /* Kiwi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kiwi.framework; path = Kiwi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C88D656F0723ABC73EAFF6D6DACE6CA /* KWRegularExpressionPatternMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWRegularExpressionPatternMatcher.h; path = Classes/Matchers/KWRegularExpressionPatternMatcher.h; sourceTree = "<group>"; };
+		0CDFB0DF71E04AC5923B18830B71E470 /* KWStub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStub.h; path = Classes/Stubbing/KWStub.h; sourceTree = "<group>"; };
+		0D1EC949CD18B033A6CABBE8C6E2741E /* NSObject+KiwiStubAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiStubAdditions.m"; path = "Classes/Stubbing/NSObject+KiwiStubAdditions.m"; sourceTree = "<group>"; };
+		0D3A8773E95CAFC2369A55271E919338 /* KWFutureObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFutureObject.m; path = Classes/Core/KWFutureObject.m; sourceTree = "<group>"; };
+		0DC8261C1E7A904E1B6517A5649FA34E /* KWBeZeroMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeZeroMatcher.m; path = Classes/Matchers/KWBeZeroMatcher.m; sourceTree = "<group>"; };
+		0DD4F5A3F342C91350D11ADA150A7495 /* KWRegisterMatchersNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRegisterMatchersNode.m; path = Classes/Nodes/KWRegisterMatchersNode.m; sourceTree = "<group>"; };
+		0FDD32390D53A5F4021643FAF8E0CD2C /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		101A7F2EEB7574C1E8AF1492AEC9CCA1 /* NSValue+KiwiAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+KiwiAdditions.m"; path = "Classes/Core/NSValue+KiwiAdditions.m"; sourceTree = "<group>"; };
+		10CCC3E2283AD8F6727DE24235AFF41E /* KWRegisterMatchersNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWRegisterMatchersNode.h; path = Classes/Nodes/KWRegisterMatchersNode.h; sourceTree = "<group>"; };
+		10F4223CC9E38669BEAF7760B48DBE1D /* LibOpenFortiVPN-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LibOpenFortiVPN-iOS.modulemap"; sourceTree = "<group>"; };
+		136AA0F1FC5C090B84F7A0ADB81E419D /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		1548F261DC6CC284C18DF8CC8E1BF5F7 /* Pods-LibOpenFortiVPN-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LibOpenFortiVPN-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		178B43298D3392BF60EE4B0DA5D22E1E /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		17DA8EA63F5D88C30C021B23AADC03E0 /* KWMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatchers.h; path = Classes/Core/KWMatchers.h; sourceTree = "<group>"; };
+		194400D4356D24E37E0A41D57B02D21B /* Pods-LibOpenFortiVPN-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibOpenFortiVPN-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A4A24FA11779480C27CA188B4DD4ACF /* KWLetNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWLetNode.h; path = Classes/Nodes/KWLetNode.h; sourceTree = "<group>"; };
+		1AE224D40BF5973727879C3B66D0E2A6 /* KWHaveValueMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWHaveValueMatcher.h; path = Classes/Matchers/KWHaveValueMatcher.h; sourceTree = "<group>"; };
+		1BDC4EC0E72E2E0EA1FB43F4F6BE59F4 /* Kiwi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kiwi-umbrella.h"; sourceTree = "<group>"; };
+		1CFC141E9FDF9C36CAEF524BEBA3657F /* NSMethodSignature+KiwiAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+KiwiAdditions.m"; path = "Classes/Core/NSMethodSignature+KiwiAdditions.m"; sourceTree = "<group>"; };
+		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1E3A4BB44036D3083237DBB71788D6E8 /* OpenSSL-Universal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.debug.xcconfig"; sourceTree = "<group>"; };
+		1E6BCD479B951AF3C1EFCC688D8762D3 /* KWBeMemberOfClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeMemberOfClassMatcher.m; path = Classes/Matchers/KWBeMemberOfClassMatcher.m; sourceTree = "<group>"; };
+		1E9D9E53DE659A9F00CA2337895C2623 /* OpenSSL.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenSSL.xcframework; path = Frameworks/OpenSSL.xcframework; sourceTree = "<group>"; };
+		1EE0D5CFB17DE3B0E01174AF8F2D87E3 /* openfortivpn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = openfortivpn.m; path = "LibOpenFortiVPN-iOS/Classes/openfortivpn.m"; sourceTree = "<group>"; };
+		204A68F55CCA7BC4BD91F9260547766C /* KWBlockNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBlockNode.m; path = Classes/Nodes/KWBlockNode.m; sourceTree = "<group>"; };
+		21CE78CED18CB79796B7563D34425901 /* KWNilMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWNilMatcher.m; path = Classes/Matchers/KWNilMatcher.m; sourceTree = "<group>"; };
+		2273A5ACC1AA1C41399421602B7E719D /* KWSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSpec.h; path = Classes/Core/KWSpec.h; sourceTree = "<group>"; };
+		233826D0F79698930D2212A7B22058FD /* KWObjCUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWObjCUtilities.m; path = Classes/Core/KWObjCUtilities.m; sourceTree = "<group>"; };
+		23CE0FE8ED28F82A73248634DAFF278F /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		241F3C807899E7115BBC8D35000D396B /* NSObject+KiwiVerifierAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiVerifierAdditions.m"; path = "Classes/Core/NSObject+KiwiVerifierAdditions.m"; sourceTree = "<group>"; };
+		2530A16693EC0107F0EC0E818297F61D /* Pods-LibOpenFortiVPN-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LibOpenFortiVPN-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		253E4458768FAF7EAEA13F77BD1B5744 /* KWLet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWLet.h; path = Classes/Core/KWLet.h; sourceTree = "<group>"; };
+		25B8F53665D8B78391BFC783D70401A0 /* NSInvocation+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+OCMAdditions.h"; path = "Classes/Core/NSInvocation+OCMAdditions.h"; sourceTree = "<group>"; };
+		26AD924DEFD46BA5820A05879A026C5B /* KWSymbolicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSymbolicator.h; path = Classes/Core/KWSymbolicator.h; sourceTree = "<group>"; };
+		27CF363FB675FDDA536E9236D39BD880 /* KWBeIdenticalToMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeIdenticalToMatcher.m; path = Classes/Matchers/KWBeIdenticalToMatcher.m; sourceTree = "<group>"; };
+		2AB1CF6BDCF0804D924B05E9A1A8C48F /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		2AC91272BC66E6D389CE673D4577A935 /* KWGenericMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWGenericMatcher.m; path = Classes/Matchers/KWGenericMatcher.m; sourceTree = "<group>"; };
+		2C1052DD471DE87D6EDD4B7705947168 /* KWBeforeAllNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeforeAllNode.m; path = Classes/Nodes/KWBeforeAllNode.m; sourceTree = "<group>"; };
+		2CCE2085244D7FBC4230F7435EF7B8C6 /* KWContextNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWContextNode.h; path = Classes/Nodes/KWContextNode.h; sourceTree = "<group>"; };
+		2D6228763940B0FCFFD49D1ED0158059 /* KWMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatcher.h; path = Classes/Core/KWMatcher.h; sourceTree = "<group>"; };
+		2E2678157D1A8696B2F1BDDAF2232C3B /* KWSuiteConfigurationBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSuiteConfigurationBase.m; path = Classes/Config/KWSuiteConfigurationBase.m; sourceTree = "<group>"; };
+		308FA366627EA5AEEE1878015DFFFADC /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		30965E1959A2874FE09EE8469B63599C /* Kiwi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kiwi-Info.plist"; sourceTree = "<group>"; };
+		31F5882D4EE04CEF8D1EFFCB53303B26 /* KWMatchVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMatchVerifier.m; path = Classes/Verifiers/KWMatchVerifier.m; sourceTree = "<group>"; };
+		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		32BFFA8CDD3AF195DEAE1E60C25DEE94 /* KWMessagePattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMessagePattern.h; path = Classes/Core/KWMessagePattern.h; sourceTree = "<group>"; };
+		384AB620C354999D36F1587F2A1470F3 /* KWFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFailure.m; path = Classes/Core/KWFailure.m; sourceTree = "<group>"; };
+		3AE21CE94822B10C9DF9A5962BE0F684 /* KWHaveMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWHaveMatcher.m; path = Classes/Matchers/KWHaveMatcher.m; sourceTree = "<group>"; };
+		3B4E034981EBA5FDBC7BD8FFDA85620A /* Pods-LibOpenFortiVPN-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibOpenFortiVPN-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3C35F44100B4B4996F10BA4442A0F841 /* KWObjCUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWObjCUtilities.h; path = Classes/Core/KWObjCUtilities.h; sourceTree = "<group>"; };
+		3D1469A33475C38FBCF4C0BCF5E4649A /* KWBeKindOfClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeKindOfClassMatcher.m; path = Classes/Matchers/KWBeKindOfClassMatcher.m; sourceTree = "<group>"; };
+		3D1A6BEDA72912FF2E765E0631779B24 /* Pods-LibOpenFortiVPN-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LibOpenFortiVPN-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3ED8E533F823AE195FB55FEDCC5293D5 /* KWBeTrueMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeTrueMatcher.m; path = Classes/Matchers/KWBeTrueMatcher.m; sourceTree = "<group>"; };
+		3FC8EE8CE1E9F9A8486C647C7486C7F6 /* KWBlockNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlockNode.h; path = Classes/Nodes/KWBlockNode.h; sourceTree = "<group>"; };
+		42C9D6B43B89D7D56E3007DF9140A934 /* NSMethodSignature+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+KiwiAdditions.h"; path = "Classes/Core/NSMethodSignature+KiwiAdditions.h"; sourceTree = "<group>"; };
+		4371556249E55F48B655C7D45E63C963 /* KWUserDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWUserDefinedMatcher.m; path = Classes/Matchers/KWUserDefinedMatcher.m; sourceTree = "<group>"; };
+		451785A4D3BBE6595ECB502FB901CAD2 /* KWCaptureSpy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWCaptureSpy.h; path = Classes/Core/KWCaptureSpy.h; sourceTree = "<group>"; };
+		459A0C8EDF9D0DB493EFAD8C632DC4CE /* Pods-LibOpenFortiVPN-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibOpenFortiVPN-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		45FB0E260498B31B406DE4D4B7CD2A25 /* LibOpenFortiVPN-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LibOpenFortiVPN-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		47164BA7061455517ECC415D3B941F77 /* KWAsyncVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAsyncVerifier.m; path = Classes/Verifiers/KWAsyncVerifier.m; sourceTree = "<group>"; };
+		4720C7EE65B8543CD72C6D8DCBECFC1C /* KWInvocationCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWInvocationCapturer.h; path = Classes/Core/KWInvocationCapturer.h; sourceTree = "<group>"; };
+		476C517A166423DB4A6899BD944D5667 /* KWContainMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWContainMatcher.h; path = Classes/Matchers/KWContainMatcher.h; sourceTree = "<group>"; };
+		481B4046DA81C72304102A653E063B02 /* KWProbePoller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWProbePoller.h; path = Classes/Core/KWProbePoller.h; sourceTree = "<group>"; };
+		48659572FDA98461ECD4753C0656A649 /* LibOpenFortiVPN_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LibOpenFortiVPN_iOS.framework; path = "LibOpenFortiVPN-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B977EB83571037462FE4200C31AB4B2 /* KWExistVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExistVerifier.m; path = Classes/Verifiers/KWExistVerifier.m; sourceTree = "<group>"; };
+		4BC6D88BAB200E0064D29D8CB48B22F1 /* Pods-LibOpenFortiVPN-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LibOpenFortiVPN-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		4CB2C061EA182B61377DF0DE408D61EE /* KWStringUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringUtilities.m; path = Classes/Core/KWStringUtilities.m; sourceTree = "<group>"; };
+		4D2D99C77050E187E2CC746ED4E1A12C /* KWExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExample.m; path = Classes/Core/KWExample.m; sourceTree = "<group>"; };
+		4E5D06D88EFFE91E6042059EBB5D2621 /* Pods-LibOpenFortiVPN-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibOpenFortiVPN-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		4FC25527C8BEEC57A795FBF2F77957AF /* KWCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWCallSite.h; path = Classes/Core/KWCallSite.h; sourceTree = "<group>"; };
+		5116906D7BC8FFF28A5825511DA41779 /* KWExampleSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExampleSuiteBuilder.m; path = Classes/Core/KWExampleSuiteBuilder.m; sourceTree = "<group>"; };
+		512D32F7473239A272AE7103A70E2F96 /* NSObject+KiwiSpyAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KiwiSpyAdditions.h"; path = "Classes/Core/NSObject+KiwiSpyAdditions.h"; sourceTree = "<group>"; };
+		5160A6887C12ECA623070E13AE4A0D54 /* KWExpectationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExpectationType.h; path = Classes/Core/KWExpectationType.h; sourceTree = "<group>"; };
+		52843219704807B2D9E985540FF6017E /* KWMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMock.h; path = Classes/Mocking/KWMock.h; sourceTree = "<group>"; };
+		5464BF920B5909E7F3CCD161F4640375 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		550684F8632711922362E39111F8F554 /* KWBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBlock.m; path = Classes/Core/KWBlock.m; sourceTree = "<group>"; };
+		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		58AF588B2A4C9CC7E9DD778C773CE203 /* NSInvocation+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+OCMAdditions.m"; path = "Classes/Core/NSInvocation+OCMAdditions.m"; sourceTree = "<group>"; };
+		596FEE98A6940558C8F36FAD7DBCE1AD /* Kiwi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kiwi.release.xcconfig; sourceTree = "<group>"; };
+		5A65E67C5F673D1AD7AFFC0C2071FE0E /* KiwiBlockMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiwiBlockMacros.h; path = Classes/Core/KiwiBlockMacros.h; sourceTree = "<group>"; };
+		5B390D978A9A2509BA16936F50351C37 /* KWBeKindOfClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeKindOfClassMatcher.h; path = Classes/Matchers/KWBeKindOfClassMatcher.h; sourceTree = "<group>"; };
+		5B7006D6BC4A83492D0BA7BB73A76BA9 /* KWInequalityMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWInequalityMatcher.h; path = Classes/Matchers/KWInequalityMatcher.h; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE1C9589D0C3EAA13195A571FD7CBB7 /* KWProbePoller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWProbePoller.m; path = Classes/Core/KWProbePoller.m; sourceTree = "<group>"; };
+		5E0E22F726F1815181058D55A57E588A /* KWNilMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWNilMatcher.h; path = Classes/Matchers/KWNilMatcher.h; sourceTree = "<group>"; };
+		5FB4039D2D92A4693C4C4894CB66A46E /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		61052D2EB5540CE4595687FC6B2DA7AE /* NSObject+KiwiMockAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KiwiMockAdditions.h"; path = "Classes/Mocking/NSObject+KiwiMockAdditions.h"; sourceTree = "<group>"; };
+		61C9A7746E7E72065C41CAB6E9AE1926 /* LibOpenFortiVPN-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibOpenFortiVPN-iOS-umbrella.h"; sourceTree = "<group>"; };
+		63A1538287AC074416BFEF8FDE78EDA5 /* KWSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSpec.m; path = Classes/Core/KWSpec.m; sourceTree = "<group>"; };
+		6571EA2020BAB124E66B5B970C83F334 /* KWAsyncVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWAsyncVerifier.h; path = Classes/Verifiers/KWAsyncVerifier.h; sourceTree = "<group>"; };
+		678729FCB7E4E15D93A8C08504A99021 /* Kiwi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kiwi-prefix.pch"; sourceTree = "<group>"; };
+		68202D8AD5862ECC82826C9A9CFE3F76 /* KWSharedExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSharedExample.h; path = "Classes/Shared Examples/KWSharedExample.h"; sourceTree = "<group>"; };
+		685D2C8829DEC8529176C3F9BBF81EE6 /* KWInvocationCapturer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWInvocationCapturer.m; path = Classes/Core/KWInvocationCapturer.m; sourceTree = "<group>"; };
+		6A501F412282D730A93F56F8476128BE /* KWContextNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWContextNode.m; path = Classes/Nodes/KWContextNode.m; sourceTree = "<group>"; };
+		6AD222818CC360171035110E85181C5E /* KWMessagePattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMessagePattern.m; path = Classes/Core/KWMessagePattern.m; sourceTree = "<group>"; };
+		6AEB72EBCF5D166A9AEC66276C13FF03 /* KWDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWDeviceInfo.m; path = Classes/Core/KWDeviceInfo.m; sourceTree = "<group>"; };
+		6CC3679BF2B61602F5A8EAB1596EBAD7 /* NSNumber+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+KiwiAdditions.h"; path = "Classes/Core/NSNumber+KiwiAdditions.h"; sourceTree = "<group>"; };
+		6F206E9275BDFE6C3CAE71C37742B86E /* KWAfterEachNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAfterEachNode.m; path = Classes/Nodes/KWAfterEachNode.m; sourceTree = "<group>"; };
+		6F9F5563EE3636A5DD42B163A7866662 /* Kiwi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kiwi.modulemap; sourceTree = "<group>"; };
+		6FBEC0DF9188438BFADD15E2CEEB238C /* Pods-LibOpenFortiVPN-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibOpenFortiVPN-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7370A5059382736622B941F5625B3AFF /* KWCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWCallSite.m; path = Classes/Core/KWCallSite.m; sourceTree = "<group>"; };
+		748EA4C74A23225D2E5A7AA095465FE9 /* KWExistVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExistVerifier.h; path = Classes/Verifiers/KWExistVerifier.h; sourceTree = "<group>"; };
+		74BEE4FE4EE6E8FDB1AA1C4F832B1177 /* NSValue+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+KiwiAdditions.h"; path = "Classes/Core/NSValue+KiwiAdditions.h"; sourceTree = "<group>"; };
+		7681902E4115C3FC5D0323695EAA6460 /* Pods-LibOpenFortiVPN-iOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LibOpenFortiVPN-iOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		77EB0A01116DF33752C0C8143D831639 /* KWContainMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWContainMatcher.m; path = Classes/Matchers/KWContainMatcher.m; sourceTree = "<group>"; };
+		7899011E4B8328109F5A5A48EF8C755F /* LibOpenFortiVPN-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibOpenFortiVPN-iOS-prefix.pch"; sourceTree = "<group>"; };
+		78B74F523A55EFBE65D3A3F88F76FD8D /* KWItNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWItNode.h; path = Classes/Nodes/KWItNode.h; sourceTree = "<group>"; };
+		790220681454D99C5D326C3B05895E87 /* KWProbe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWProbe.h; path = Classes/Core/KWProbe.h; sourceTree = "<group>"; };
+		79469EB52CB18CB7F9267682E0A931BB /* NSObject+KiwiStubAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KiwiStubAdditions.h"; path = "Classes/Stubbing/NSObject+KiwiStubAdditions.h"; sourceTree = "<group>"; };
+		79EC3514BA08CC0A947FBC94B3B57340 /* KWLetNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWLetNode.m; path = Classes/Nodes/KWLetNode.m; sourceTree = "<group>"; };
+		7A16AC001F58DDCC81EE28D1019EAB6C /* KWPendingNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWPendingNode.m; path = Classes/Nodes/KWPendingNode.m; sourceTree = "<group>"; };
+		7AC8C105975A9E172608D2206C795FF7 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		7B2B4314703ACDDA9A311055314268F8 /* openfortivpn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openfortivpn.h; path = "LibOpenFortiVPN-iOS/Classes/openfortivpn.h"; sourceTree = "<group>"; };
+		7BACB672284AA3D9B6CE9740D31EDE1D /* KWNotificationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWNotificationMatcher.m; path = Classes/Matchers/KWNotificationMatcher.m; sourceTree = "<group>"; };
+		7BB95830233E4A5ECF908D0E427B4C79 /* Pods_LibOpenFortiVPN_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LibOpenFortiVPN_iOS_Example.framework; path = "Pods-LibOpenFortiVPN-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC5E54A05E35814BBF3BE1CC0FC09BC /* route.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		7C0040C558434561B153A32D12B870D6 /* KWFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWFormatter.h; path = Classes/Core/KWFormatter.h; sourceTree = "<group>"; };
+		7C861F48D83C18A0D28A2BE1B8C459B3 /* KWContainStringMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWContainStringMatcher.m; path = Classes/Matchers/KWContainStringMatcher.m; sourceTree = "<group>"; };
+		7C9366DF1ECC21B8DB953820BE8F19B5 /* KWFutureObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWFutureObject.h; path = Classes/Core/KWFutureObject.h; sourceTree = "<group>"; };
+		7D513056D95625DD5149D84028220D49 /* KWBeMemberOfClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeMemberOfClassMatcher.h; path = Classes/Matchers/KWBeMemberOfClassMatcher.h; sourceTree = "<group>"; };
+		7EA679A1A9D50AFA90B4F3E215FC8D9E /* KWExampleNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleNode.h; path = Classes/Nodes/KWExampleNode.h; sourceTree = "<group>"; };
+		7EE33B7AE583E62F0314C1C22E97F2A1 /* KWBeSubclassOfClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeSubclassOfClassMatcher.m; path = Classes/Matchers/KWBeSubclassOfClassMatcher.m; sourceTree = "<group>"; };
+		7F1FFDFCDE92E1DF1486D49BBDB09DE7 /* KWAny.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAny.m; path = Classes/Core/KWAny.m; sourceTree = "<group>"; };
+		805525CB47205371AC34CDB1105BD156 /* KWMatchVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatchVerifier.h; path = Classes/Verifiers/KWMatchVerifier.h; sourceTree = "<group>"; };
+		810685B6652A616BF33B90C7E02F4E05 /* KWFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFormatter.m; path = Classes/Core/KWFormatter.m; sourceTree = "<group>"; };
+		81BE3548DFD6A5B79304822E6D64F915 /* KWBeIdenticalToMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeIdenticalToMatcher.h; path = Classes/Matchers/KWBeIdenticalToMatcher.h; sourceTree = "<group>"; };
+		82082106DB9ECCEA4E268EF046081C2F /* KWBeSubclassOfClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeSubclassOfClassMatcher.h; path = Classes/Matchers/KWBeSubclassOfClassMatcher.h; sourceTree = "<group>"; };
+		8242CE3B8813CD5C4EE7EC3137387140 /* KWBeWithinMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeWithinMatcher.m; path = Classes/Matchers/KWBeWithinMatcher.m; sourceTree = "<group>"; };
+		86AEFF3A6F599795CB8BBAF26CB53307 /* KWMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMatcher.m; path = Classes/Core/KWMatcher.m; sourceTree = "<group>"; };
+		8724AC6A8CD5E2639B9CE4C6C2E9915B /* Pods-LibOpenFortiVPN-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LibOpenFortiVPN-iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		883AEBC68688E703DF4F86017B683DA7 /* Kiwi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kiwi-dummy.m"; sourceTree = "<group>"; };
+		8947C3724EEA9F4D8DC56E1448904FB3 /* KWBackgroundTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBackgroundTask.m; path = Classes/Core/KWBackgroundTask.m; sourceTree = "<group>"; };
+		89C7C609D3D4A0F14B1BF7BF1580E9E2 /* posix_spawn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = posix_spawn.h; sourceTree = "<group>"; };
+		8A5AA605ADC5FA48109D83FB02493B36 /* KWStringContainsMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStringContainsMatcher.h; path = Classes/Matchers/KWStringContainsMatcher.h; sourceTree = "<group>"; };
+		8B5CF8F80284D2301A4CFE7EB300EB85 /* OpenSSL-Universal-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OpenSSL-Universal-xcframeworks.sh"; sourceTree = "<group>"; };
+		8D6CF35560DFC9E10C69FC0D586F3274 /* KWFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWFailure.h; path = Classes/Core/KWFailure.h; sourceTree = "<group>"; };
+		9139072FC7CC8FCF7777A3D2AA96263F /* KWBeBetweenMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeBetweenMatcher.h; path = Classes/Matchers/KWBeBetweenMatcher.h; sourceTree = "<group>"; };
+		92265642F61B14E28ED4551CE88E5FBD /* Pods-LibOpenFortiVPN-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LibOpenFortiVPN-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		922CB784873CA4D9EDC1EBC13159F151 /* KWBeZeroMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeZeroMatcher.h; path = Classes/Matchers/KWBeZeroMatcher.h; sourceTree = "<group>"; };
+		92CC2309D24E0EC83E32F7D756A73F3C /* posix_spawn.c */ = {isa = PBXFileReference; includeInIndex = 1; path = posix_spawn.c; sourceTree = "<group>"; };
+		93497CB54A9404A8972AD134F503F448 /* KWSharedExampleRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSharedExampleRegistry.m; path = "Classes/Shared Examples/KWSharedExampleRegistry.m"; sourceTree = "<group>"; };
+		94B10A520D21A3DC2E69E11680CDECC7 /* Pods_LibOpenFortiVPN_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LibOpenFortiVPN_iOS_Tests.framework; path = "Pods-LibOpenFortiVPN-iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		961ABEAB32D9C08F612287C4501E3F70 /* KWMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMock.m; path = Classes/Mocking/KWMock.m; sourceTree = "<group>"; };
+		979DB46DFBA7B8818C2340BDE8968DD3 /* KWNull.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWNull.h; path = Classes/Core/KWNull.h; sourceTree = "<group>"; };
+		99174F10C0A1308FBD49FDFA0A917675 /* NSProxy+KiwiVerifierAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSProxy+KiwiVerifierAdditions.m"; path = "Classes/Core/NSProxy+KiwiVerifierAdditions.m"; sourceTree = "<group>"; };
+		996175385139D7F7B2E9DEDE5AB91BBB /* KWEqualMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWEqualMatcher.h; path = Classes/Matchers/KWEqualMatcher.h; sourceTree = "<group>"; };
+		9A6A09EFE96894026F7CDDADC43190D6 /* KWStringPrefixMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStringPrefixMatcher.h; path = Classes/Matchers/KWStringPrefixMatcher.h; sourceTree = "<group>"; };
+		9A73F88D00A1C6A99645F027919FDC2C /* KWHaveMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWHaveMatcher.h; path = Classes/Matchers/KWHaveMatcher.h; sourceTree = "<group>"; };
+		9B2B440273158890A11E463218C31102 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F3AE6C6E5B29A984D1D4084069E48DC /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		9F9C381B24C10E64568348E7463D7CEE /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		9FA562A803A022628F6CD89BA5D576E4 /* KWHaveValueMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWHaveValueMatcher.m; path = Classes/Matchers/KWHaveValueMatcher.m; sourceTree = "<group>"; };
+		A14DD8F0566E45B59CA86600B5C08686 /* KWReceiveMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWReceiveMatcher.h; path = Classes/Matchers/KWReceiveMatcher.h; sourceTree = "<group>"; };
+		A16B2FE953847329F0E2747FF48E45DD /* KWNull.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWNull.m; path = Classes/Core/KWNull.m; sourceTree = "<group>"; };
+		A8AAA0E6A44B9CBF271B1404E46AD764 /* NSObject+KiwiSpyAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiSpyAdditions.m"; path = "Classes/Core/NSObject+KiwiSpyAdditions.m"; sourceTree = "<group>"; };
+		A91B604326545278A6A9AA3A222BC769 /* KWSharedExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSharedExample.m; path = "Classes/Shared Examples/KWSharedExample.m"; sourceTree = "<group>"; };
+		A97581D520CDF6E34AD5B7B8C05C05A8 /* KWExampleNodeVisitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleNodeVisitor.h; path = Classes/Core/KWExampleNodeVisitor.h; sourceTree = "<group>"; };
+		AD0E8E4179BDD4F2D6914BEE6ECA5D11 /* KWStringPrefixMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringPrefixMatcher.m; path = Classes/Matchers/KWStringPrefixMatcher.m; sourceTree = "<group>"; };
+		ADA304E4583F8B10D885197CEA104A3B /* KWRespondToSelectorMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWRespondToSelectorMatcher.h; path = Classes/Matchers/KWRespondToSelectorMatcher.h; sourceTree = "<group>"; };
+		AE93A31947757122241802EB96EE2A9C /* KWCountType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWCountType.h; path = Classes/Core/KWCountType.h; sourceTree = "<group>"; };
+		B2D41C3A5A2CFC7AAD558170832CF342 /* KWPendingNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWPendingNode.h; path = Classes/Nodes/KWPendingNode.h; sourceTree = "<group>"; };
+		B383EA4353E53522C9D5D59B6C279739 /* Pods-LibOpenFortiVPN-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibOpenFortiVPN-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B4A6D64DB830A42E4A1344BA6D57F247 /* NSInvocation+KiwiAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+KiwiAdditions.m"; path = "Classes/Core/NSInvocation+KiwiAdditions.m"; sourceTree = "<group>"; };
+		B52B05FFDCEA490ABE7E9EBC996CDC28 /* KWNotificationMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWNotificationMatcher.h; path = Classes/Matchers/KWNotificationMatcher.h; sourceTree = "<group>"; };
+		B5563438AA49B52A2CBBC4D8681899D1 /* KWVerifying.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWVerifying.h; path = Classes/Verifiers/KWVerifying.h; sourceTree = "<group>"; };
+		B5C8D4337E88A9D18CFC623C0122BB11 /* KWBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlock.h; path = Classes/Core/KWBlock.h; sourceTree = "<group>"; };
+		B5FE9CFA69EA0FBE40DF03C8C8CD41C6 /* KWRespondToSelectorMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRespondToSelectorMatcher.m; path = Classes/Matchers/KWRespondToSelectorMatcher.m; sourceTree = "<group>"; };
+		B728D8FBBDFC31494724D580E89CE2C6 /* KWBlockRaiseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlockRaiseMatcher.h; path = Classes/Matchers/KWBlockRaiseMatcher.h; sourceTree = "<group>"; };
+		B7D2549D66BA093109CC62396233EAB0 /* Kiwi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kiwi.debug.xcconfig; sourceTree = "<group>"; };
+		B81133F0A56562EE4B1AE9B5E0C46F5B /* KWIntercept.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWIntercept.h; path = Classes/Stubbing/KWIntercept.h; sourceTree = "<group>"; };
+		BA9AC87A21194640F30DFBB2862D170E /* KWBeEmptyMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeEmptyMatcher.m; path = Classes/Matchers/KWBeEmptyMatcher.m; sourceTree = "<group>"; };
+		BB7207DA8F3C1FA748222E7BF4BAB7BE /* KWRegularExpressionPatternMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRegularExpressionPatternMatcher.m; path = Classes/Matchers/KWRegularExpressionPatternMatcher.m; sourceTree = "<group>"; };
+		BC6CA2E55409077DDD0A67A08A9F86C1 /* KWBeforeAllNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeforeAllNode.h; path = Classes/Nodes/KWBeforeAllNode.h; sourceTree = "<group>"; };
+		BC7645C588DDEDCB63AF4DBAAFD1298F /* KWStringUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStringUtilities.h; path = Classes/Core/KWStringUtilities.h; sourceTree = "<group>"; };
+		BDFBF01C3F5155A19B99B746D1240A78 /* KWSharedExampleRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSharedExampleRegistry.h; path = "Classes/Shared Examples/KWSharedExampleRegistry.h"; sourceTree = "<group>"; };
+		BE287E00EA6D0D749654555A3EF4FA46 /* LibOpenFortiVPN-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LibOpenFortiVPN-iOS-Info.plist"; sourceTree = "<group>"; };
+		BED5BB09CE08820507BA89BEDC357706 /* KWMessageSpying.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMessageSpying.h; path = Classes/Core/KWMessageSpying.h; sourceTree = "<group>"; };
+		BF85650727B9A71C066C0102855DE3A4 /* Pods-LibOpenFortiVPN-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibOpenFortiVPN-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		C3F0DFA12D8AF995113DADD448C1E56B /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		C4F9BFE71E134EEE16063A8E1EA57546 /* KWExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExample.h; path = Classes/Core/KWExample.h; sourceTree = "<group>"; };
+		C5D3146ECB71815272169FE1A074B6E6 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		C675D47E779059E1F02B051F60D4ED67 /* OpenSSL-Universal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.release.xcconfig"; sourceTree = "<group>"; };
+		C6A3F81C3C238AC910E59C8448F06F09 /* KWMatching.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatching.h; path = Classes/Core/KWMatching.h; sourceTree = "<group>"; };
+		C6CAB961D6540D3960A6DD90C99F6D1E /* KWBeBetweenMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeBetweenMatcher.m; path = Classes/Matchers/KWBeBetweenMatcher.m; sourceTree = "<group>"; };
+		C7904750192B45B24C1A4FA0E70D9110 /* KWExampleDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleDelegate.h; path = Classes/Core/KWExampleDelegate.h; sourceTree = "<group>"; };
+		C7A9ED89B29195C9B7A1575B46B6C81E /* KWReceiveMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWReceiveMatcher.m; path = Classes/Matchers/KWReceiveMatcher.m; sourceTree = "<group>"; };
+		C8BBC6A57B2E4E6C15DC7416A3BE4CEE /* KWConformToProtocolMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWConformToProtocolMatcher.m; path = Classes/Matchers/KWConformToProtocolMatcher.m; sourceTree = "<group>"; };
+		C8D6564F4E672F2A855477CA1AB5648F /* KWChangeMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWChangeMatcher.h; path = Classes/Matchers/KWChangeMatcher.h; sourceTree = "<group>"; };
+		C8EE0B8AE6ABC2157E2CCF9152781D05 /* LibOpenFortiVPN-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LibOpenFortiVPN-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		C9D5943E004671A9599113762D8B6109 /* KWItNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWItNode.m; path = Classes/Nodes/KWItNode.m; sourceTree = "<group>"; };
+		C9F8D27C26ADC27583E4E71740D8BE1B /* KWBackgroundTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBackgroundTask.h; path = Classes/Core/KWBackgroundTask.h; sourceTree = "<group>"; };
+		CA592DEDE800A38CFAAA119F69187A05 /* KWChangeMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWChangeMatcher.m; path = Classes/Matchers/KWChangeMatcher.m; sourceTree = "<group>"; };
+		CA9D0664C1FE416A5E997F8A4DC5A7FB /* KWMatcherFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMatcherFactory.m; path = Classes/Core/KWMatcherFactory.m; sourceTree = "<group>"; };
+		CAC0E28339A2DEE8C2CA1F4A2829E26C /* LibOpenFortiVPN-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "LibOpenFortiVPN-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB179E1AFFA7CB674EFBDF400DD31037 /* Pods-LibOpenFortiVPN-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LibOpenFortiVPN-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		CC216EF7850ABC2B8DEB9B35B43B7997 /* NSObject+KiwiMockAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiMockAdditions.m"; path = "Classes/Mocking/NSObject+KiwiMockAdditions.m"; sourceTree = "<group>"; };
+		CD129962B664C35B2339D454EFB6569A /* KWGenericMatchEvaluator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWGenericMatchEvaluator.m; path = Classes/Matchers/KWGenericMatchEvaluator.m; sourceTree = "<group>"; };
+		CE844249EF47491CB99A3069CE17271C /* KiwiConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiwiConfiguration.h; path = Classes/Core/KiwiConfiguration.h; sourceTree = "<group>"; };
+		CF410728D7F315072D9D1DF842470AF3 /* KWBeWithinMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeWithinMatcher.h; path = Classes/Matchers/KWBeWithinMatcher.h; sourceTree = "<group>"; };
+		D0B04900920E050735E2EE7845D06CCF /* Kiwi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kiwi.h; path = Classes/Core/Kiwi.h; sourceTree = "<group>"; };
+		D1B71A000C99358F301FBCD199D6DD84 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		D29ADEEEF92DA42F02F0C06CBB6ACA3D /* KWBeTrueMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeTrueMatcher.h; path = Classes/Matchers/KWBeTrueMatcher.h; sourceTree = "<group>"; };
+		D399A6085FF19CE79E3C7C0F12428CBB /* KWMessageTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMessageTracker.h; path = Classes/Core/KWMessageTracker.h; sourceTree = "<group>"; };
+		D3A6161A83C99E12B953ADDF33FCB7C9 /* KWWorkarounds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWWorkarounds.m; path = Classes/Core/KWWorkarounds.m; sourceTree = "<group>"; };
+		D4DA8508DF57FE6BE7071A63645A8298 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		D4F175CE697560C64503F69B02C3A0D6 /* KWExampleSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExampleSuite.m; path = Classes/Core/KWExampleSuite.m; sourceTree = "<group>"; };
+		D6832BD5202C92989B91351D3CE15C23 /* KWValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWValue.h; path = Classes/Core/KWValue.h; sourceTree = "<group>"; };
+		D738B1FC0406148AC0AE55AA1DDC90E3 /* KWMatchers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMatchers.m; path = Classes/Core/KWMatchers.m; sourceTree = "<group>"; };
+		D7F8565C4238AC0A55833EC181E591AA /* KWDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWDeviceInfo.h; path = Classes/Core/KWDeviceInfo.h; sourceTree = "<group>"; };
+		D8432C693C9B19991A54063E6CB3D798 /* KWEqualMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWEqualMatcher.m; path = Classes/Matchers/KWEqualMatcher.m; sourceTree = "<group>"; };
+		DA74BF7E55A6555E8783FEF838BE8E3B /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		DB02329DBA8EF551229E8EE1CFBDAD2C /* KWUserDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWUserDefinedMatcher.h; path = Classes/Matchers/KWUserDefinedMatcher.h; sourceTree = "<group>"; };
+		DDE7ACB263B2574D866F9E2AF2E488E9 /* NSProxy+KiwiVerifierAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSProxy+KiwiVerifierAdditions.h"; path = "Classes/Core/NSProxy+KiwiVerifierAdditions.h"; sourceTree = "<group>"; };
+		DF7ACA018F3059E0F999D9AE009D77D6 /* Pods-LibOpenFortiVPN-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LibOpenFortiVPN-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		E04EE54701A75AFA06F68FA5C29BF6CC /* KWAfterEachNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWAfterEachNode.h; path = Classes/Nodes/KWAfterEachNode.h; sourceTree = "<group>"; };
+		E09CBB3D795F53478AB1165BCB9DDB7D /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E21A40C7CAEEB9476AB7AAFBFBBBE65E /* KWExampleSuiteBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleSuiteBuilder.h; path = Classes/Core/KWExampleSuiteBuilder.h; sourceTree = "<group>"; };
+		E21C2680EC14B0CCE35AAF04F2F6C46F /* KWAfterAllNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAfterAllNode.m; path = Classes/Nodes/KWAfterAllNode.m; sourceTree = "<group>"; };
+		E2B1FB662ACF4D4D4E6CB23A6A0545DB /* Pods-LibOpenFortiVPN-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LibOpenFortiVPN-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E316366A41419FC04F7BA08B1DEE2504 /* KWContainStringMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWContainStringMatcher.h; path = Classes/Matchers/KWContainStringMatcher.h; sourceTree = "<group>"; };
+		E4415E04AEE2C2B2C8EC8D9A4126594C /* KWValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWValue.m; path = Classes/Core/KWValue.m; sourceTree = "<group>"; };
+		E594C206A6F7418AF00C7198B10EC12B /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E69AB1C4ECACD8DE7C9A4BD6AA789A44 /* KWBeEmptyMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeEmptyMatcher.h; path = Classes/Matchers/KWBeEmptyMatcher.h; sourceTree = "<group>"; };
+		E6EA40F9CAF97203EEE974B055B3890D /* KWCaptureSpy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWCaptureSpy.m; path = Classes/Core/KWCaptureSpy.m; sourceTree = "<group>"; };
+		E7E5615597852621D0642576474B5563 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E81CBB61B7626AD7AFD47EB66A6BFA52 /* KWExampleSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleSuite.h; path = Classes/Core/KWExampleSuite.h; sourceTree = "<group>"; };
+		E9FE4C038DE0C0584EB96EE75588EBCC /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		EA516A398ADD68A04BDB0BD2320FBE88 /* KWMatcherFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatcherFactory.h; path = Classes/Core/KWMatcherFactory.h; sourceTree = "<group>"; };
+		EADD8E75A6CFC61FEC317732982E045D /* KWStub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStub.m; path = Classes/Stubbing/KWStub.m; sourceTree = "<group>"; };
+		EB13AB9C543CDD48528698B4A6BD6C27 /* KWAfterAllNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWAfterAllNode.h; path = Classes/Nodes/KWAfterAllNode.h; sourceTree = "<group>"; };
+		EBE7B50DC266CBE90AF50EF256E10A5D /* KWWorkarounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWWorkarounds.h; path = Classes/Core/KWWorkarounds.h; sourceTree = "<group>"; };
+		ECDE73CC947EE831C36999253DDDE258 /* LibOpenFortiVPN-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LibOpenFortiVPN-iOS-dummy.m"; sourceTree = "<group>"; };
+		EF1F79F9ED45B6CF0A4970F63CCE0D76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EF91AC3FD42AB9696ED428F2800800EB /* KWStringContainsMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringContainsMatcher.m; path = Classes/Matchers/KWStringContainsMatcher.m; sourceTree = "<group>"; };
+		F125EBBCACD8811FE2BAFBD2239D44D1 /* KWConformToProtocolMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWConformToProtocolMatcher.h; path = Classes/Matchers/KWConformToProtocolMatcher.h; sourceTree = "<group>"; };
+		F154E1B3537747F9AF5A2BEA7430DD77 /* KWBeforeEachNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeforeEachNode.h; path = Classes/Nodes/KWBeforeEachNode.h; sourceTree = "<group>"; };
+		F1E32494CFB725F65FD5D57CE2EBACE5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "LibOpenFortiVPN-iOS/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		F3CF9EF4CEBB511F0A67554800A99C83 /* KWBlockRaiseMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBlockRaiseMatcher.m; path = Classes/Matchers/KWBlockRaiseMatcher.m; sourceTree = "<group>"; };
+		F46250FB2A2255C68EBBAAF80958E177 /* KWBeforeEachNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeforeEachNode.m; path = Classes/Nodes/KWBeforeEachNode.m; sourceTree = "<group>"; };
+		F500FF98A02366D82A007D0CD16BDCF3 /* Pods-LibOpenFortiVPN-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibOpenFortiVPN-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F581F03F6E54F9044FD22D6E7DADE31C /* NSInvocation+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+KiwiAdditions.h"; path = "Classes/Core/NSInvocation+KiwiAdditions.h"; sourceTree = "<group>"; };
+		F5E1FBAFC67575D59459ACD477B5CA90 /* NSObject+KiwiVerifierAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KiwiVerifierAdditions.h"; path = "Classes/Core/NSObject+KiwiVerifierAdditions.h"; sourceTree = "<group>"; };
+		F6860291F8D3A6CBFF5AA79E26588BC7 /* KWReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWReporting.h; path = Classes/Core/KWReporting.h; sourceTree = "<group>"; };
+		F9D6E545B93AA367643EDF23B438BEC3 /* NSNumber+KiwiAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+KiwiAdditions.m"; path = "Classes/Core/NSNumber+KiwiAdditions.m"; sourceTree = "<group>"; };
+		FB2A1DFDC0CF071F64A5A7D536C51148 /* KWIntercept.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWIntercept.m; path = Classes/Stubbing/KWIntercept.m; sourceTree = "<group>"; };
+		FCF5E03F1C3D7B913960302F94DE8850 /* KWGenericMatchingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWGenericMatchingAdditions.h; path = Classes/Matchers/KWGenericMatchingAdditions.h; sourceTree = "<group>"; };
+		FE7B5D748177207732579DE57681AED2 /* KWGenericMatchingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWGenericMatchingAdditions.m; path = Classes/Matchers/KWGenericMatchingAdditions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03033A78AECFE659D1D384935BF11834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C081EEB4B2853519BD5D4A998CA569E4 /* Foundation.framework in Frameworks */,
+				E30E786E3131F0C739DAD0D825D13C96 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AEA940EBF1D5519DF468214D799B349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B68665C1621C18EF9729CB1E3B7708 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F442065B3D4A7F16F58065EF571938D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCE2F2B774D6A199CDC81640F92E1DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1C038AADAEFCC0A372806DECC0F927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4B106381CE27F83257510D7A56F75F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */,
+				2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */,
+				BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */,
+				121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E4BA0F877CB57D51D1EDD321F06F0D8 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				7BC5E54A05E35814BBF3BE1CC0FC09BC /* route.h */,
+			);
+			name = net;
+			path = net;
+			sourceTree = "<group>";
+		};
+		1081DA94C4F504E7A1FCA274A09B7FA6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B80A5F8067F30849EDA6D1FE0E1B8581 /* Pods-LibOpenFortiVPN-iOS_Example */,
+				3968CDA37157DC65F016FFDD1E191A25 /* Pods-LibOpenFortiVPN-iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2695DCE37872C65472381B84A2033D2B /* Kiwi */ = {
+			isa = PBXGroup;
+			children = (
+				D0B04900920E050735E2EE7845D06CCF /* Kiwi.h */,
+				5A65E67C5F673D1AD7AFFC0C2071FE0E /* KiwiBlockMacros.h */,
+				CE844249EF47491CB99A3069CE17271C /* KiwiConfiguration.h */,
+				06798A97783911C02E231B407E44E149 /* KiwiMacros.h */,
+				EB13AB9C543CDD48528698B4A6BD6C27 /* KWAfterAllNode.h */,
+				E21C2680EC14B0CCE35AAF04F2F6C46F /* KWAfterAllNode.m */,
+				E04EE54701A75AFA06F68FA5C29BF6CC /* KWAfterEachNode.h */,
+				6F206E9275BDFE6C3CAE71C37742B86E /* KWAfterEachNode.m */,
+				036BF88CD34AB0E673A9DA45CC6A26EA /* KWAllTestsSuite.m */,
+				09216DBBD58301D4F5ED7D79A2A924E2 /* KWAny.h */,
+				7F1FFDFCDE92E1DF1486D49BBDB09DE7 /* KWAny.m */,
+				6571EA2020BAB124E66B5B970C83F334 /* KWAsyncVerifier.h */,
+				47164BA7061455517ECC415D3B941F77 /* KWAsyncVerifier.m */,
+				C9F8D27C26ADC27583E4E71740D8BE1B /* KWBackgroundTask.h */,
+				8947C3724EEA9F4D8DC56E1448904FB3 /* KWBackgroundTask.m */,
+				9139072FC7CC8FCF7777A3D2AA96263F /* KWBeBetweenMatcher.h */,
+				C6CAB961D6540D3960A6DD90C99F6D1E /* KWBeBetweenMatcher.m */,
+				E69AB1C4ECACD8DE7C9A4BD6AA789A44 /* KWBeEmptyMatcher.h */,
+				BA9AC87A21194640F30DFBB2862D170E /* KWBeEmptyMatcher.m */,
+				BC6CA2E55409077DDD0A67A08A9F86C1 /* KWBeforeAllNode.h */,
+				2C1052DD471DE87D6EDD4B7705947168 /* KWBeforeAllNode.m */,
+				F154E1B3537747F9AF5A2BEA7430DD77 /* KWBeforeEachNode.h */,
+				F46250FB2A2255C68EBBAAF80958E177 /* KWBeforeEachNode.m */,
+				81BE3548DFD6A5B79304822E6D64F915 /* KWBeIdenticalToMatcher.h */,
+				27CF363FB675FDDA536E9236D39BD880 /* KWBeIdenticalToMatcher.m */,
+				5B390D978A9A2509BA16936F50351C37 /* KWBeKindOfClassMatcher.h */,
+				3D1469A33475C38FBCF4C0BCF5E4649A /* KWBeKindOfClassMatcher.m */,
+				7D513056D95625DD5149D84028220D49 /* KWBeMemberOfClassMatcher.h */,
+				1E6BCD479B951AF3C1EFCC688D8762D3 /* KWBeMemberOfClassMatcher.m */,
+				82082106DB9ECCEA4E268EF046081C2F /* KWBeSubclassOfClassMatcher.h */,
+				7EE33B7AE583E62F0314C1C22E97F2A1 /* KWBeSubclassOfClassMatcher.m */,
+				D29ADEEEF92DA42F02F0C06CBB6ACA3D /* KWBeTrueMatcher.h */,
+				3ED8E533F823AE195FB55FEDCC5293D5 /* KWBeTrueMatcher.m */,
+				CF410728D7F315072D9D1DF842470AF3 /* KWBeWithinMatcher.h */,
+				8242CE3B8813CD5C4EE7EC3137387140 /* KWBeWithinMatcher.m */,
+				922CB784873CA4D9EDC1EBC13159F151 /* KWBeZeroMatcher.h */,
+				0DC8261C1E7A904E1B6517A5649FA34E /* KWBeZeroMatcher.m */,
+				B5C8D4337E88A9D18CFC623C0122BB11 /* KWBlock.h */,
+				550684F8632711922362E39111F8F554 /* KWBlock.m */,
+				3FC8EE8CE1E9F9A8486C647C7486C7F6 /* KWBlockNode.h */,
+				204A68F55CCA7BC4BD91F9260547766C /* KWBlockNode.m */,
+				B728D8FBBDFC31494724D580E89CE2C6 /* KWBlockRaiseMatcher.h */,
+				F3CF9EF4CEBB511F0A67554800A99C83 /* KWBlockRaiseMatcher.m */,
+				4FC25527C8BEEC57A795FBF2F77957AF /* KWCallSite.h */,
+				7370A5059382736622B941F5625B3AFF /* KWCallSite.m */,
+				451785A4D3BBE6595ECB502FB901CAD2 /* KWCaptureSpy.h */,
+				E6EA40F9CAF97203EEE974B055B3890D /* KWCaptureSpy.m */,
+				C8D6564F4E672F2A855477CA1AB5648F /* KWChangeMatcher.h */,
+				CA592DEDE800A38CFAAA119F69187A05 /* KWChangeMatcher.m */,
+				F125EBBCACD8811FE2BAFBD2239D44D1 /* KWConformToProtocolMatcher.h */,
+				C8BBC6A57B2E4E6C15DC7416A3BE4CEE /* KWConformToProtocolMatcher.m */,
+				476C517A166423DB4A6899BD944D5667 /* KWContainMatcher.h */,
+				77EB0A01116DF33752C0C8143D831639 /* KWContainMatcher.m */,
+				E316366A41419FC04F7BA08B1DEE2504 /* KWContainStringMatcher.h */,
+				7C861F48D83C18A0D28A2BE1B8C459B3 /* KWContainStringMatcher.m */,
+				2CCE2085244D7FBC4230F7435EF7B8C6 /* KWContextNode.h */,
+				6A501F412282D730A93F56F8476128BE /* KWContextNode.m */,
+				AE93A31947757122241802EB96EE2A9C /* KWCountType.h */,
+				D7F8565C4238AC0A55833EC181E591AA /* KWDeviceInfo.h */,
+				6AEB72EBCF5D166A9AEC66276C13FF03 /* KWDeviceInfo.m */,
+				996175385139D7F7B2E9DEDE5AB91BBB /* KWEqualMatcher.h */,
+				D8432C693C9B19991A54063E6CB3D798 /* KWEqualMatcher.m */,
+				C4F9BFE71E134EEE16063A8E1EA57546 /* KWExample.h */,
+				4D2D99C77050E187E2CC746ED4E1A12C /* KWExample.m */,
+				C7904750192B45B24C1A4FA0E70D9110 /* KWExampleDelegate.h */,
+				7EA679A1A9D50AFA90B4F3E215FC8D9E /* KWExampleNode.h */,
+				A97581D520CDF6E34AD5B7B8C05C05A8 /* KWExampleNodeVisitor.h */,
+				E81CBB61B7626AD7AFD47EB66A6BFA52 /* KWExampleSuite.h */,
+				D4F175CE697560C64503F69B02C3A0D6 /* KWExampleSuite.m */,
+				E21A40C7CAEEB9476AB7AAFBFBBBE65E /* KWExampleSuiteBuilder.h */,
+				5116906D7BC8FFF28A5825511DA41779 /* KWExampleSuiteBuilder.m */,
+				748EA4C74A23225D2E5A7AA095465FE9 /* KWExistVerifier.h */,
+				4B977EB83571037462FE4200C31AB4B2 /* KWExistVerifier.m */,
+				5160A6887C12ECA623070E13AE4A0D54 /* KWExpectationType.h */,
+				8D6CF35560DFC9E10C69FC0D586F3274 /* KWFailure.h */,
+				384AB620C354999D36F1587F2A1470F3 /* KWFailure.m */,
+				7C0040C558434561B153A32D12B870D6 /* KWFormatter.h */,
+				810685B6652A616BF33B90C7E02F4E05 /* KWFormatter.m */,
+				7C9366DF1ECC21B8DB953820BE8F19B5 /* KWFutureObject.h */,
+				0D3A8773E95CAFC2369A55271E919338 /* KWFutureObject.m */,
+				01FEC828FA04F8C00ABF66914BA3A014 /* KWGenericMatcher.h */,
+				2AC91272BC66E6D389CE673D4577A935 /* KWGenericMatcher.m */,
+				01077955F21B4843A46B19EC644C59C2 /* KWGenericMatchEvaluator.h */,
+				CD129962B664C35B2339D454EFB6569A /* KWGenericMatchEvaluator.m */,
+				FCF5E03F1C3D7B913960302F94DE8850 /* KWGenericMatchingAdditions.h */,
+				FE7B5D748177207732579DE57681AED2 /* KWGenericMatchingAdditions.m */,
+				9A73F88D00A1C6A99645F027919FDC2C /* KWHaveMatcher.h */,
+				3AE21CE94822B10C9DF9A5962BE0F684 /* KWHaveMatcher.m */,
+				1AE224D40BF5973727879C3B66D0E2A6 /* KWHaveValueMatcher.h */,
+				9FA562A803A022628F6CD89BA5D576E4 /* KWHaveValueMatcher.m */,
+				5B7006D6BC4A83492D0BA7BB73A76BA9 /* KWInequalityMatcher.h */,
+				0C03CEA431CE677591FF7B03EF1C18BA /* KWInequalityMatcher.m */,
+				B81133F0A56562EE4B1AE9B5E0C46F5B /* KWIntercept.h */,
+				FB2A1DFDC0CF071F64A5A7D536C51148 /* KWIntercept.m */,
+				4720C7EE65B8543CD72C6D8DCBECFC1C /* KWInvocationCapturer.h */,
+				685D2C8829DEC8529176C3F9BBF81EE6 /* KWInvocationCapturer.m */,
+				78B74F523A55EFBE65D3A3F88F76FD8D /* KWItNode.h */,
+				C9D5943E004671A9599113762D8B6109 /* KWItNode.m */,
+				253E4458768FAF7EAEA13F77BD1B5744 /* KWLet.h */,
+				1A4A24FA11779480C27CA188B4DD4ACF /* KWLetNode.h */,
+				79EC3514BA08CC0A947FBC94B3B57340 /* KWLetNode.m */,
+				2D6228763940B0FCFFD49D1ED0158059 /* KWMatcher.h */,
+				86AEFF3A6F599795CB8BBAF26CB53307 /* KWMatcher.m */,
+				EA516A398ADD68A04BDB0BD2320FBE88 /* KWMatcherFactory.h */,
+				CA9D0664C1FE416A5E997F8A4DC5A7FB /* KWMatcherFactory.m */,
+				17DA8EA63F5D88C30C021B23AADC03E0 /* KWMatchers.h */,
+				D738B1FC0406148AC0AE55AA1DDC90E3 /* KWMatchers.m */,
+				C6A3F81C3C238AC910E59C8448F06F09 /* KWMatching.h */,
+				805525CB47205371AC34CDB1105BD156 /* KWMatchVerifier.h */,
+				31F5882D4EE04CEF8D1EFFCB53303B26 /* KWMatchVerifier.m */,
+				32BFFA8CDD3AF195DEAE1E60C25DEE94 /* KWMessagePattern.h */,
+				6AD222818CC360171035110E85181C5E /* KWMessagePattern.m */,
+				BED5BB09CE08820507BA89BEDC357706 /* KWMessageSpying.h */,
+				D399A6085FF19CE79E3C7C0F12428CBB /* KWMessageTracker.h */,
+				0B36A980D08F407783BBA5E209900FDB /* KWMessageTracker.m */,
+				52843219704807B2D9E985540FF6017E /* KWMock.h */,
+				961ABEAB32D9C08F612287C4501E3F70 /* KWMock.m */,
+				5E0E22F726F1815181058D55A57E588A /* KWNilMatcher.h */,
+				21CE78CED18CB79796B7563D34425901 /* KWNilMatcher.m */,
+				B52B05FFDCEA490ABE7E9EBC996CDC28 /* KWNotificationMatcher.h */,
+				7BACB672284AA3D9B6CE9740D31EDE1D /* KWNotificationMatcher.m */,
+				979DB46DFBA7B8818C2340BDE8968DD3 /* KWNull.h */,
+				A16B2FE953847329F0E2747FF48E45DD /* KWNull.m */,
+				3C35F44100B4B4996F10BA4442A0F841 /* KWObjCUtilities.h */,
+				233826D0F79698930D2212A7B22058FD /* KWObjCUtilities.m */,
+				B2D41C3A5A2CFC7AAD558170832CF342 /* KWPendingNode.h */,
+				7A16AC001F58DDCC81EE28D1019EAB6C /* KWPendingNode.m */,
+				790220681454D99C5D326C3B05895E87 /* KWProbe.h */,
+				481B4046DA81C72304102A653E063B02 /* KWProbePoller.h */,
+				5CE1C9589D0C3EAA13195A571FD7CBB7 /* KWProbePoller.m */,
+				A14DD8F0566E45B59CA86600B5C08686 /* KWReceiveMatcher.h */,
+				C7A9ED89B29195C9B7A1575B46B6C81E /* KWReceiveMatcher.m */,
+				10CCC3E2283AD8F6727DE24235AFF41E /* KWRegisterMatchersNode.h */,
+				0DD4F5A3F342C91350D11ADA150A7495 /* KWRegisterMatchersNode.m */,
+				0C88D656F0723ABC73EAFF6D6DACE6CA /* KWRegularExpressionPatternMatcher.h */,
+				BB7207DA8F3C1FA748222E7BF4BAB7BE /* KWRegularExpressionPatternMatcher.m */,
+				F6860291F8D3A6CBFF5AA79E26588BC7 /* KWReporting.h */,
+				ADA304E4583F8B10D885197CEA104A3B /* KWRespondToSelectorMatcher.h */,
+				B5FE9CFA69EA0FBE40DF03C8C8CD41C6 /* KWRespondToSelectorMatcher.m */,
+				68202D8AD5862ECC82826C9A9CFE3F76 /* KWSharedExample.h */,
+				A91B604326545278A6A9AA3A222BC769 /* KWSharedExample.m */,
+				BDFBF01C3F5155A19B99B746D1240A78 /* KWSharedExampleRegistry.h */,
+				93497CB54A9404A8972AD134F503F448 /* KWSharedExampleRegistry.m */,
+				2273A5ACC1AA1C41399421602B7E719D /* KWSpec.h */,
+				63A1538287AC074416BFEF8FDE78EDA5 /* KWSpec.m */,
+				8A5AA605ADC5FA48109D83FB02493B36 /* KWStringContainsMatcher.h */,
+				EF91AC3FD42AB9696ED428F2800800EB /* KWStringContainsMatcher.m */,
+				9A6A09EFE96894026F7CDDADC43190D6 /* KWStringPrefixMatcher.h */,
+				AD0E8E4179BDD4F2D6914BEE6ECA5D11 /* KWStringPrefixMatcher.m */,
+				BC7645C588DDEDCB63AF4DBAAFD1298F /* KWStringUtilities.h */,
+				4CB2C061EA182B61377DF0DE408D61EE /* KWStringUtilities.m */,
+				0CDFB0DF71E04AC5923B18830B71E470 /* KWStub.h */,
+				EADD8E75A6CFC61FEC317732982E045D /* KWStub.m */,
+				0B02A58C6B9FA1CBBDDC2E244BCC1625 /* KWSuiteConfigurationBase.h */,
+				2E2678157D1A8696B2F1BDDAF2232C3B /* KWSuiteConfigurationBase.m */,
+				26AD924DEFD46BA5820A05879A026C5B /* KWSymbolicator.h */,
+				00EBCDA8621DF26F8A94FD8096D35B47 /* KWSymbolicator.m */,
+				DB02329DBA8EF551229E8EE1CFBDAD2C /* KWUserDefinedMatcher.h */,
+				4371556249E55F48B655C7D45E63C963 /* KWUserDefinedMatcher.m */,
+				D6832BD5202C92989B91351D3CE15C23 /* KWValue.h */,
+				E4415E04AEE2C2B2C8EC8D9A4126594C /* KWValue.m */,
+				B5563438AA49B52A2CBBC4D8681899D1 /* KWVerifying.h */,
+				EBE7B50DC266CBE90AF50EF256E10A5D /* KWWorkarounds.h */,
+				D3A6161A83C99E12B953ADDF33FCB7C9 /* KWWorkarounds.m */,
+				F581F03F6E54F9044FD22D6E7DADE31C /* NSInvocation+KiwiAdditions.h */,
+				B4A6D64DB830A42E4A1344BA6D57F247 /* NSInvocation+KiwiAdditions.m */,
+				25B8F53665D8B78391BFC783D70401A0 /* NSInvocation+OCMAdditions.h */,
+				58AF588B2A4C9CC7E9DD778C773CE203 /* NSInvocation+OCMAdditions.m */,
+				42C9D6B43B89D7D56E3007DF9140A934 /* NSMethodSignature+KiwiAdditions.h */,
+				1CFC141E9FDF9C36CAEF524BEBA3657F /* NSMethodSignature+KiwiAdditions.m */,
+				6CC3679BF2B61602F5A8EAB1596EBAD7 /* NSNumber+KiwiAdditions.h */,
+				F9D6E545B93AA367643EDF23B438BEC3 /* NSNumber+KiwiAdditions.m */,
+				61052D2EB5540CE4595687FC6B2DA7AE /* NSObject+KiwiMockAdditions.h */,
+				CC216EF7850ABC2B8DEB9B35B43B7997 /* NSObject+KiwiMockAdditions.m */,
+				512D32F7473239A272AE7103A70E2F96 /* NSObject+KiwiSpyAdditions.h */,
+				A8AAA0E6A44B9CBF271B1404E46AD764 /* NSObject+KiwiSpyAdditions.m */,
+				79469EB52CB18CB7F9267682E0A931BB /* NSObject+KiwiStubAdditions.h */,
+				0D1EC949CD18B033A6CABBE8C6E2741E /* NSObject+KiwiStubAdditions.m */,
+				F5E1FBAFC67575D59459ACD477B5CA90 /* NSObject+KiwiVerifierAdditions.h */,
+				241F3C807899E7115BBC8D35000D396B /* NSObject+KiwiVerifierAdditions.m */,
+				DDE7ACB263B2574D866F9E2AF2E488E9 /* NSProxy+KiwiVerifierAdditions.h */,
+				99174F10C0A1308FBD49FDFA0A917675 /* NSProxy+KiwiVerifierAdditions.m */,
+				74BEE4FE4EE6E8FDB1AA1C4F832B1177 /* NSValue+KiwiAdditions.h */,
+				101A7F2EEB7574C1E8AF1492AEC9CCA1 /* NSValue+KiwiAdditions.m */,
+				B33F7843FCF324E3361D397A1A8EC772 /* Support Files */,
+			);
+			name = Kiwi;
+			path = Kiwi;
+			sourceTree = "<group>";
+		};
+		2B792670AE02DA629095617DC751D77C /* LibOpenFortiVPN-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7B2B4314703ACDDA9A311055314268F8 /* openfortivpn.h */,
+				1EE0D5CFB17DE3B0E01174AF8F2D87E3 /* openfortivpn.m */,
+				F1E32494CFB725F65FD5D57CE2EBACE5 /* ReplaceMe.m */,
+				2F84DF2AFF26B745F689F7C755E04619 /* External */,
+				87EE4D84D2DDD6CD083C6438A51CC114 /* Pod */,
+				38D425083065C66C03DD35BD20DEF611 /* Support Files */,
+			);
+			name = "LibOpenFortiVPN-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2F84DF2AFF26B745F689F7C755E04619 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				92CC2309D24E0EC83E32F7D756A73F3C /* posix_spawn.c */,
+				89C7C609D3D4A0F14B1BF7BF1580E9E2 /* posix_spawn.h */,
+				0E4BA0F877CB57D51D1EDD321F06F0D8 /* net */,
+			);
+			name = External;
+			path = "LibOpenFortiVPN-iOS/Classes/External";
+			sourceTree = "<group>";
+		};
+		38D425083065C66C03DD35BD20DEF611 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10F4223CC9E38669BEAF7760B48DBE1D /* LibOpenFortiVPN-iOS.modulemap */,
+				ECDE73CC947EE831C36999253DDDE258 /* LibOpenFortiVPN-iOS-dummy.m */,
+				BE287E00EA6D0D749654555A3EF4FA46 /* LibOpenFortiVPN-iOS-Info.plist */,
+				7899011E4B8328109F5A5A48EF8C755F /* LibOpenFortiVPN-iOS-prefix.pch */,
+				61C9A7746E7E72065C41CAB6E9AE1926 /* LibOpenFortiVPN-iOS-umbrella.h */,
+				45FB0E260498B31B406DE4D4B7CD2A25 /* LibOpenFortiVPN-iOS.debug.xcconfig */,
+				C8EE0B8AE6ABC2157E2CCF9152781D05 /* LibOpenFortiVPN-iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LibOpenFortiVPN-iOS";
+			sourceTree = "<group>";
+		};
+		3968CDA37157DC65F016FFDD1E191A25 /* Pods-LibOpenFortiVPN-iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8724AC6A8CD5E2639B9CE4C6C2E9915B /* Pods-LibOpenFortiVPN-iOS_Tests.modulemap */,
+				3D1A6BEDA72912FF2E765E0631779B24 /* Pods-LibOpenFortiVPN-iOS_Tests-acknowledgements.markdown */,
+				194400D4356D24E37E0A41D57B02D21B /* Pods-LibOpenFortiVPN-iOS_Tests-acknowledgements.plist */,
+				DF7ACA018F3059E0F999D9AE009D77D6 /* Pods-LibOpenFortiVPN-iOS_Tests-dummy.m */,
+				7681902E4115C3FC5D0323695EAA6460 /* Pods-LibOpenFortiVPN-iOS_Tests-frameworks.sh */,
+				4E5D06D88EFFE91E6042059EBB5D2621 /* Pods-LibOpenFortiVPN-iOS_Tests-Info.plist */,
+				2530A16693EC0107F0EC0E818297F61D /* Pods-LibOpenFortiVPN-iOS_Tests-umbrella.h */,
+				F500FF98A02366D82A007D0CD16BDCF3 /* Pods-LibOpenFortiVPN-iOS_Tests.debug.xcconfig */,
+				B383EA4353E53522C9D5D59B6C279739 /* Pods-LibOpenFortiVPN-iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-LibOpenFortiVPN-iOS_Tests";
+			path = "Target Support Files/Pods-LibOpenFortiVPN-iOS_Tests";
+			sourceTree = "<group>";
+		};
+		3BA7329725692625B4989E81355775A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E9D9E53DE659A9F00CA2337895C2623 /* OpenSSL.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E26ADA3E9A0DE7AB0964DF576A64A4C /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				866CE4A61A1A2C907FDFFB0ECDFE6E24 /* Core */,
+				4BFDBDB826CFE6467767F06B85A9D85A /* Support Files */,
+				B51DD84E5645E0A1BBEC778AD7580999 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		4BFDBDB826CFE6467767F06B85A9D85A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03B06BEC3BB00C57F15D3CCEB4BDCC45 /* FBSnapshotTestCase.modulemap */,
+				D1B71A000C99358F301FBCD199D6DD84 /* FBSnapshotTestCase-dummy.m */,
+				9F9C381B24C10E64568348E7463D7CEE /* FBSnapshotTestCase-Info.plist */,
+				C5D3146ECB71815272169FE1A074B6E6 /* FBSnapshotTestCase-prefix.pch */,
+				E594C206A6F7418AF00C7198B10EC12B /* FBSnapshotTestCase-umbrella.h */,
+				D4DA8508DF57FE6BE7071A63645A8298 /* FBSnapshotTestCase.debug.xcconfig */,
+				2AB1CF6BDCF0804D924B05E9A1A8C48F /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		866CE4A61A1A2C907FDFFB0ECDFE6E24 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9F3AE6C6E5B29A984D1D4084069E48DC /* FBSnapshotTestCase.h */,
+				23CE0FE8ED28F82A73248634DAFF278F /* FBSnapshotTestCase.m */,
+				0945894F51ABF48EC54248FEE248FFBB /* FBSnapshotTestCasePlatform.h */,
+				E9FE4C038DE0C0584EB96EE75588EBCC /* FBSnapshotTestCasePlatform.m */,
+				308FA366627EA5AEEE1878015DFFFADC /* FBSnapshotTestController.h */,
+				178B43298D3392BF60EE4B0DA5D22E1E /* FBSnapshotTestController.m */,
+				5FB4039D2D92A4693C4C4894CB66A46E /* UIApplication+StrictKeyWindow.h */,
+				0FDD32390D53A5F4021643FAF8E0CD2C /* UIApplication+StrictKeyWindow.m */,
+				DA74BF7E55A6555E8783FEF838BE8E3B /* UIImage+Compare.h */,
+				7AC8C105975A9E172608D2206C795FF7 /* UIImage+Compare.m */,
+				E09CBB3D795F53478AB1165BCB9DDB7D /* UIImage+Diff.h */,
+				136AA0F1FC5C090B84F7A0ADB81E419D /* UIImage+Diff.m */,
+				5464BF920B5909E7F3CCD161F4640375 /* UIImage+Snapshot.h */,
+				C3F0DFA12D8AF995113DADD448C1E56B /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		87EE4D84D2DDD6CD083C6438A51CC114 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CAC0E28339A2DEE8C2CA1F4A2829E26C /* LibOpenFortiVPN-iOS.podspec */,
+				EF1F79F9ED45B6CF0A4970F63CCE0D76 /* LICENSE */,
+				E7E5615597852621D0642576474B5563 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		933FE0EA0DE7BC5F1F620D47E3FA9674 /* OpenSSL-Universal */ = {
+			isa = PBXGroup;
+			children = (
+				3BA7329725692625B4989E81355775A0 /* Frameworks */,
+				B008DAC17DA0B69203187977C56864CF /* Support Files */,
+			);
+			name = "OpenSSL-Universal";
+			path = "OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		A731D363675964EC9501646803503ABA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E26ADA3E9A0DE7AB0964DF576A64A4C /* FBSnapshotTestCase */,
+				2695DCE37872C65472381B84A2033D2B /* Kiwi */,
+				933FE0EA0DE7BC5F1F620D47E3FA9674 /* OpenSSL-Universal */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B008DAC17DA0B69203187977C56864CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B5CF8F80284D2301A4CFE7EB300EB85 /* OpenSSL-Universal-xcframeworks.sh */,
+				1E3A4BB44036D3083237DBB71788D6E8 /* OpenSSL-Universal.debug.xcconfig */,
+				C675D47E779059E1F02B051F60D4ED67 /* OpenSSL-Universal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		B33F7843FCF324E3361D397A1A8EC772 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F9F5563EE3636A5DD42B163A7866662 /* Kiwi.modulemap */,
+				883AEBC68688E703DF4F86017B683DA7 /* Kiwi-dummy.m */,
+				30965E1959A2874FE09EE8469B63599C /* Kiwi-Info.plist */,
+				678729FCB7E4E15D93A8C08504A99021 /* Kiwi-prefix.pch */,
+				1BDC4EC0E72E2E0EA1FB43F4F6BE59F4 /* Kiwi-umbrella.h */,
+				B7D2549D66BA093109CC62396233EAB0 /* Kiwi.debug.xcconfig */,
+				596FEE98A6940558C8F36FAD7DBCE1AD /* Kiwi.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kiwi";
+			sourceTree = "<group>";
+		};
+		B51DD84E5645E0A1BBEC778AD7580999 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				9B2B440273158890A11E463218C31102 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		B5C3515DF37C3B0AE47C222DCA280A96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				0C26E0179F81C13A342E1D93EE7708D4 /* Kiwi.framework */,
+				48659572FDA98461ECD4753C0656A649 /* LibOpenFortiVPN_iOS.framework */,
+				7BB95830233E4A5ECF908D0E427B4C79 /* Pods_LibOpenFortiVPN_iOS_Example.framework */,
+				94B10A520D21A3DC2E69E11680CDECC7 /* Pods_LibOpenFortiVPN_iOS_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B80A5F8067F30849EDA6D1FE0E1B8581 /* Pods-LibOpenFortiVPN-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4BC6D88BAB200E0064D29D8CB48B22F1 /* Pods-LibOpenFortiVPN-iOS_Example.modulemap */,
+				E2B1FB662ACF4D4D4E6CB23A6A0545DB /* Pods-LibOpenFortiVPN-iOS_Example-acknowledgements.markdown */,
+				459A0C8EDF9D0DB493EFAD8C632DC4CE /* Pods-LibOpenFortiVPN-iOS_Example-acknowledgements.plist */,
+				1548F261DC6CC284C18DF8CC8E1BF5F7 /* Pods-LibOpenFortiVPN-iOS_Example-dummy.m */,
+				92265642F61B14E28ED4551CE88E5FBD /* Pods-LibOpenFortiVPN-iOS_Example-frameworks.sh */,
+				BF85650727B9A71C066C0102855DE3A4 /* Pods-LibOpenFortiVPN-iOS_Example-Info.plist */,
+				CB179E1AFFA7CB674EFBDF400DD31037 /* Pods-LibOpenFortiVPN-iOS_Example-umbrella.h */,
+				6FBEC0DF9188438BFADD15E2CEEB238C /* Pods-LibOpenFortiVPN-iOS_Example.debug.xcconfig */,
+				3B4E034981EBA5FDBC7BD8FFDA85620A /* Pods-LibOpenFortiVPN-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-LibOpenFortiVPN-iOS_Example";
+			path = "Target Support Files/Pods-LibOpenFortiVPN-iOS_Example";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E85B701B79C7128AA53B9ACCCF59A212 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				A731D363675964EC9501646803503ABA /* Pods */,
+				B5C3515DF37C3B0AE47C222DCA280A96 /* Products */,
+				1081DA94C4F504E7A1FCA274A09B7FA6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E85B701B79C7128AA53B9ACCCF59A212 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B792670AE02DA629095617DC751D77C /* LibOpenFortiVPN-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
+				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
+				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
+				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C9603B56992F4E5F27987085A81BAB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983282AB31C5998FDAF10A0993B0A5B3 /* Pods-LibOpenFortiVPN-iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8ECBBAB2C26B7B7D6A4A0B51F87B43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA837BE5A676F9E6DF6DC11632D1EC5 /* LibOpenFortiVPN-iOS-umbrella.h in Headers */,
+				9D8DF4E2ECAF6D8BB1E01F26E94865D5 /* openfortivpn.h in Headers */,
+				5DD1E2F3EDA2571C6CBC6F33C0398E25 /* posix_spawn.h in Headers */,
+				360D800C0A08D1055223E42C5E260EC8 /* route.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2975A6DDB95AAA0AFC0F36457767C7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82DD477DD5E9D6737DA37B7D85BD040 /* Pods-LibOpenFortiVPN-iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42C474757774A47AFFF3C741AEF3306 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D04DD37703C899A71CE8D9A05727B7B /* Kiwi-umbrella.h in Headers */,
+				CE3EAE3FCFF63A5C8B06FC698E134D29 /* Kiwi.h in Headers */,
+				59752ED9904709AC0EFEE6BAC5C93CDF /* KiwiBlockMacros.h in Headers */,
+				96351348E49352FBA8B490C8769AC621 /* KiwiConfiguration.h in Headers */,
+				5971948A685E206168F8D78483F52F18 /* KiwiMacros.h in Headers */,
+				35C95F7F81A7FFE79D6650FD82D4610B /* KWAfterAllNode.h in Headers */,
+				AD44BB99BF06DE413AE315F92EC9A6E5 /* KWAfterEachNode.h in Headers */,
+				7C6E533F74BFE85EE532BAFF2C49771E /* KWAny.h in Headers */,
+				B0BE797282690E7F23A1CF735339B1DC /* KWAsyncVerifier.h in Headers */,
+				16470AAAAADEEE93D204FC21C86AAC41 /* KWBackgroundTask.h in Headers */,
+				4D6375C59CBCA243A9826C6773FCDC82 /* KWBeBetweenMatcher.h in Headers */,
+				E45CF267D414F4A208D2DB10B644F759 /* KWBeEmptyMatcher.h in Headers */,
+				B58E0763D927BD1A56DE9B3C48EB75F3 /* KWBeforeAllNode.h in Headers */,
+				08C86FCC1314B64540C9F48A1FA0D548 /* KWBeforeEachNode.h in Headers */,
+				6EA2C946AE0F26E4109D53B0233B6432 /* KWBeIdenticalToMatcher.h in Headers */,
+				6C32F04CB5E5F03C50F9598786ACD882 /* KWBeKindOfClassMatcher.h in Headers */,
+				70B0C01F7127743A957368494017A043 /* KWBeMemberOfClassMatcher.h in Headers */,
+				7EBAFD889907C5F0B9327119564AE205 /* KWBeSubclassOfClassMatcher.h in Headers */,
+				CF87111CE5A447A27DA89FC288C9654C /* KWBeTrueMatcher.h in Headers */,
+				A64AF6D8D7FDF7CCDCCFDE4815C60845 /* KWBeWithinMatcher.h in Headers */,
+				2CC0CF3444006977E8B05AC1D254194A /* KWBeZeroMatcher.h in Headers */,
+				DBB592B1BD73EDAAEE38221449304DCE /* KWBlock.h in Headers */,
+				F6F372577C48AE7FD66B3D6DD2E32383 /* KWBlockNode.h in Headers */,
+				3DC4A32E9F870135C404D03A269593DC /* KWBlockRaiseMatcher.h in Headers */,
+				C8D0644E3AFCF616220FF72135553713 /* KWCallSite.h in Headers */,
+				DB2783810E744F94967DCED028BA77CB /* KWCaptureSpy.h in Headers */,
+				A1C9BEC0342F17D6203BAF7D227DFBB4 /* KWChangeMatcher.h in Headers */,
+				64D229C3BC5DD74CE975E2F18041D42B /* KWConformToProtocolMatcher.h in Headers */,
+				6689343D2AEB0A1077D928057FFFE95D /* KWContainMatcher.h in Headers */,
+				5C6C99F70342BB36C5793E7C2B458C64 /* KWContainStringMatcher.h in Headers */,
+				B3EB8A7C8E9BBB86796C510162D455B5 /* KWContextNode.h in Headers */,
+				72EE785E78F6BBCFB8DE91CE18804624 /* KWCountType.h in Headers */,
+				FA6BD8968C77C0F6C7A7D5C8F6A08B40 /* KWDeviceInfo.h in Headers */,
+				50421FA8B8D6FC0784354E6A21DD040C /* KWEqualMatcher.h in Headers */,
+				D74FEFEAC09F1E5ACA2EA0C5CE3C94AC /* KWExample.h in Headers */,
+				8A257B2F83D8881164C8B479398CC720 /* KWExampleDelegate.h in Headers */,
+				021B9C94F6EBD5074380FC2C7B8A5CC4 /* KWExampleNode.h in Headers */,
+				F01997A184CBF40E97331FF67E025FB6 /* KWExampleNodeVisitor.h in Headers */,
+				A050D45168414CD41456BD20D6156C46 /* KWExampleSuite.h in Headers */,
+				B3EFDFDBFC4E5B58C48BDDE8557658C0 /* KWExampleSuiteBuilder.h in Headers */,
+				C056FD8ADE6D8D54E2F221FD59774979 /* KWExistVerifier.h in Headers */,
+				F9D4FCB1A3FB0B4D7A6E55EE82BAE7DA /* KWExpectationType.h in Headers */,
+				DDA69A0525223B5F0CDDEF4AD2EDC2B9 /* KWFailure.h in Headers */,
+				37A9A76AB5CEB06D313A6BDA7D52A1C3 /* KWFormatter.h in Headers */,
+				903540921F03545548F0970C5E8B1F28 /* KWFutureObject.h in Headers */,
+				3E2076BC8C4EEC622C5E0D37BF27B1E9 /* KWGenericMatcher.h in Headers */,
+				5BFF4F31AD167C8256DF656382E89012 /* KWGenericMatchEvaluator.h in Headers */,
+				0126ED337580101E28E8A26ED4F44674 /* KWGenericMatchingAdditions.h in Headers */,
+				3DBBC198220A6E99781CADC3189D36E1 /* KWHaveMatcher.h in Headers */,
+				C7A3E1F157DAC1639FB646D161D16BDB /* KWHaveValueMatcher.h in Headers */,
+				8E6C4D032491E68AEEF5846F86A3BE45 /* KWInequalityMatcher.h in Headers */,
+				277F493F2093FCAEA4E8EF2F8712F9EA /* KWIntercept.h in Headers */,
+				C15A07F0EAC150AED92F3C598EAC1843 /* KWInvocationCapturer.h in Headers */,
+				A131705D620AB9C3D37239DF42D3DAEA /* KWItNode.h in Headers */,
+				75BEDE54BF96BF5148558E48D545F14D /* KWLet.h in Headers */,
+				227E6349C52D58B07C718EA8528EFF1A /* KWLetNode.h in Headers */,
+				8287FC563E1817CAD9ABC02A25E55280 /* KWMatcher.h in Headers */,
+				E7C6ECFB9A10355719DF24E3DCB4A68D /* KWMatcherFactory.h in Headers */,
+				2321896CDA4A2E4393878446B0E31C41 /* KWMatchers.h in Headers */,
+				9DB6475A75D8BA4D87259A4F29B6C351 /* KWMatching.h in Headers */,
+				9C0CB5F3585F2EEE47BB69EABE75509A /* KWMatchVerifier.h in Headers */,
+				38AF6FD44DB99A5BBA70A8F6601E567C /* KWMessagePattern.h in Headers */,
+				52F5AFEBD9637164EBF1087C93B5181E /* KWMessageSpying.h in Headers */,
+				1E46A04E7DA9733DA22912A2572FBCE9 /* KWMessageTracker.h in Headers */,
+				9CC486B32DC5A91C62203DAD4F5DB5D5 /* KWMock.h in Headers */,
+				CC8AA92193334642725524E81D3C8436 /* KWNilMatcher.h in Headers */,
+				7624F1D59A0863C620767DEF22A57A99 /* KWNotificationMatcher.h in Headers */,
+				5BCE6A3C3798DC89B07C3CD4CAC8CD97 /* KWNull.h in Headers */,
+				90383DD2AFE2FD10607F8C4FE66A355C /* KWObjCUtilities.h in Headers */,
+				17F4A97760C7C00B11E9350DD19AE9EB /* KWPendingNode.h in Headers */,
+				19F90082625BF9D282FF0096D2312801 /* KWProbe.h in Headers */,
+				010EC6B555F00AC990C46D4E4019B4EB /* KWProbePoller.h in Headers */,
+				6470B1951B36628BD20835DC70A28DEF /* KWReceiveMatcher.h in Headers */,
+				CBF1FE276824F04BAE37B176F3D3DE47 /* KWRegisterMatchersNode.h in Headers */,
+				B66505741DBB031A8C61F7B1BEDA9888 /* KWRegularExpressionPatternMatcher.h in Headers */,
+				5F9A6B1F251E54709B343621609655C6 /* KWReporting.h in Headers */,
+				963BD6B20F679F45D27BCA4FC779D657 /* KWRespondToSelectorMatcher.h in Headers */,
+				716BF643B9E590E9EDC71DCD0477CD09 /* KWSharedExample.h in Headers */,
+				27D6B36B293DC8603F9DECBD03076AC6 /* KWSharedExampleRegistry.h in Headers */,
+				B0E599AA2DBC19E30881FD8A7F52643B /* KWSpec.h in Headers */,
+				39A79E4068D67CFE215FF9FF8F50DFD5 /* KWStringContainsMatcher.h in Headers */,
+				8BF027B676130A01572134A15F8AAD21 /* KWStringPrefixMatcher.h in Headers */,
+				5971C7965ABECFD046D4121ACEA0C3EF /* KWStringUtilities.h in Headers */,
+				274C5E5824CD5877521BDA5E3DE0E96D /* KWStub.h in Headers */,
+				C3217811697384BE9FA9F9589CCA6A25 /* KWSuiteConfigurationBase.h in Headers */,
+				05F3A6432D6AD96A9BC357C0DBC5F512 /* KWSymbolicator.h in Headers */,
+				259AD097F124BC66C716E804A924E1AA /* KWUserDefinedMatcher.h in Headers */,
+				1ECF1E22DA5C464156858B0A6B4F142D /* KWValue.h in Headers */,
+				634876E37E67D3C424AD37CE4C7F516D /* KWVerifying.h in Headers */,
+				799257E82809153DBE82AF57853D8F05 /* KWWorkarounds.h in Headers */,
+				D9B66A7DBEEA77D032679B600DBD4602 /* NSInvocation+KiwiAdditions.h in Headers */,
+				B2C2DB49C3236CBA2A9F80891C7D6B7E /* NSInvocation+OCMAdditions.h in Headers */,
+				1522D7BBA7124894DE23CAB231B12354 /* NSMethodSignature+KiwiAdditions.h in Headers */,
+				E022211844E729C2ABE05587E5549123 /* NSNumber+KiwiAdditions.h in Headers */,
+				DE342F20458568184635D89A7FDAEA1E /* NSObject+KiwiMockAdditions.h in Headers */,
+				43D2FD32F4C2329586ED7334C4C1ED1F /* NSObject+KiwiSpyAdditions.h in Headers */,
+				0F89BD3F84DB7DE7B7692F385C295531 /* NSObject+KiwiStubAdditions.h in Headers */,
+				F4119860C85F3B9D1A300DFD99C845EA /* NSObject+KiwiVerifierAdditions.h in Headers */,
+				4BD42FEB504CFF4EDCACAA6A90F2296B /* NSProxy+KiwiVerifierAdditions.h in Headers */,
+				EEDE056012B63DECAC72AE81915043F6 /* NSValue+KiwiAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8793F0E68F6C2641E411714D43FCFABE /* Pods-LibOpenFortiVPN-iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647F086D3FE9B68F5AE1AFDCB37D38E3 /* Build configuration list for PBXNativeTarget "Pods-LibOpenFortiVPN-iOS_Tests" */;
+			buildPhases = (
+				0C9603B56992F4E5F27987085A81BAB6 /* Headers */,
+				9CA9B20E8279ACA1A9682649D1E0A956 /* Sources */,
+				9F442065B3D4A7F16F58065EF571938D /* Frameworks */,
+				7B04DB7C8F96E9701421AE6544743D37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7EAD1085E62900FF25A3749F4B84964 /* PBXTargetDependency */,
+				0761CACB7397F3ED4AFB59F376E88867 /* PBXTargetDependency */,
+				51FAA981C4F961E5D20AB0FA83F53BED /* PBXTargetDependency */,
+			);
+			name = "Pods-LibOpenFortiVPN-iOS_Tests";
+			productName = "Pods-LibOpenFortiVPN-iOS_Tests";
+			productReference = 94B10A520D21A3DC2E69E11680CDECC7 /* Pods_LibOpenFortiVPN_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5A4060DC193E269FE369F036E4781A9 /* Kiwi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D199D06A71607352BB7F4D0A6CDADC67 /* Build configuration list for PBXNativeTarget "Kiwi" */;
+			buildPhases = (
+				E42C474757774A47AFFF3C741AEF3306 /* Headers */,
+				056B061276F4BCFFC0DC8BE3DB8691DD /* Sources */,
+				03033A78AECFE659D1D384935BF11834 /* Frameworks */,
+				DF40EB910E012B91EA7D589F9299BF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kiwi;
+			productName = Kiwi;
+			productReference = 0C26E0179F81C13A342E1D93EE7708D4 /* Kiwi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F52797B8BC8031C744D59535DA02AC42 /* Pods-LibOpenFortiVPN-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A22000383830C3EF6A1248BCE59FF2 /* Build configuration list for PBXNativeTarget "Pods-LibOpenFortiVPN-iOS_Example" */;
+			buildPhases = (
+				E2975A6DDB95AAA0AFC0F36457767C7C /* Headers */,
+				138DF7F837230883C1EC03D8B3ED18FC /* Sources */,
+				0AEA940EBF1D5519DF468214D799B349 /* Frameworks */,
+				A3FE086B584A483542FDB6B03784C552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				695E326AB9B49D57E9FC1EC9857A574C /* PBXTargetDependency */,
+				A1990D1C526940EB9E138DCE4DB8291B /* PBXTargetDependency */,
+			);
+			name = "Pods-LibOpenFortiVPN-iOS_Example";
+			productName = "Pods-LibOpenFortiVPN-iOS_Example";
+			productReference = 7BB95830233E4A5ECF908D0E427B4C79 /* Pods_LibOpenFortiVPN_iOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F81F5FCEE536D5856B11A5F094E9F009 /* LibOpenFortiVPN-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DE8D8B37EE0F7180D08F34012B6B96 /* Build configuration list for PBXNativeTarget "LibOpenFortiVPN-iOS" */;
+			buildPhases = (
+				1D8ECBBAB2C26B7B7D6A4A0B51F87B43 /* Headers */,
+				FF48BF7F4945BF1BD44F78C8A6711E9D /* Sources */,
+				CC1C038AADAEFCC0A372806DECC0F927 /* Frameworks */,
+				1D326696852FE84490CFDC7FBC709548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF20AB0D72F782BE0CC159F67139C24 /* PBXTargetDependency */,
+			);
+			name = "LibOpenFortiVPN-iOS";
+			productName = "LibOpenFortiVPN-iOS";
+			productReference = 48659572FDA98461ECD4753C0656A649 /* LibOpenFortiVPN_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B5C3515DF37C3B0AE47C222DCA280A96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				D5A4060DC193E269FE369F036E4781A9 /* Kiwi */,
+				F81F5FCEE536D5856B11A5F094E9F009 /* LibOpenFortiVPN-iOS */,
+				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
+				F52797B8BC8031C744D59535DA02AC42 /* Pods-LibOpenFortiVPN-iOS_Example */,
+				8793F0E68F6C2641E411714D43FCFABE /* Pods-LibOpenFortiVPN-iOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D326696852FE84490CFDC7FBC709548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B04DB7C8F96E9701421AE6544743D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FE086B584A483542FDB6B03784C552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF40EB910E012B91EA7D589F9299BF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7059A1BA8ECD62C0037E0CCB2ECA627E /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/OpenSSL-Universal/OpenSSL-Universal-xcframeworks.sh",
+				"${PODS_ROOT}/OpenSSL-Universal/Frameworks/OpenSSL.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/OpenSSL-Universal/OpenSSL-Universal-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		056B061276F4BCFFC0DC8BE3DB8691DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BC0268C8876709176605DE2124D68D /* Kiwi-dummy.m in Sources */,
+				63EA00AA88B1C1E1522DE59D30EF3F88 /* KWAfterAllNode.m in Sources */,
+				135EA78DF787D2987A359A3436AAA38B /* KWAfterEachNode.m in Sources */,
+				1DA06E9FD118F89543D237F6AE5722C6 /* KWAllTestsSuite.m in Sources */,
+				8AF38478B686878D7179B8D73E7DCBF7 /* KWAny.m in Sources */,
+				73FB3C41ABF9FFD350B7A8658482F7C7 /* KWAsyncVerifier.m in Sources */,
+				6CE8F545FA4F0D77F488BAF11D29510E /* KWBackgroundTask.m in Sources */,
+				1F55517A6C558E7584BA3F2ABFFF0305 /* KWBeBetweenMatcher.m in Sources */,
+				1D6B9B253C8890A625684F68E61B3730 /* KWBeEmptyMatcher.m in Sources */,
+				F9365645888FED2FCADAB946040DA004 /* KWBeforeAllNode.m in Sources */,
+				1E6006352BAE6BB4B9F321B6F161B538 /* KWBeforeEachNode.m in Sources */,
+				D94C70E221BC494D370A7203F5D688A7 /* KWBeIdenticalToMatcher.m in Sources */,
+				64BD03CF1DA9F58367DB782BC0FCDDAA /* KWBeKindOfClassMatcher.m in Sources */,
+				FADE3A8DB197FEB93BB865324AB90B25 /* KWBeMemberOfClassMatcher.m in Sources */,
+				581845A1F686A720235F16F6917B7089 /* KWBeSubclassOfClassMatcher.m in Sources */,
+				BB035E1FE93185F9259EF1DD9CC16F8A /* KWBeTrueMatcher.m in Sources */,
+				9BE510567463378117AEE88847E32E0D /* KWBeWithinMatcher.m in Sources */,
+				70CA03A9BC00435AAA53858DDACAA31D /* KWBeZeroMatcher.m in Sources */,
+				604D3F76D9400BDEFBC6587EE6827933 /* KWBlock.m in Sources */,
+				57A7717712B5C39EDAAAF3BD849705D4 /* KWBlockNode.m in Sources */,
+				7AD683BC36504E7DD2CD6B87653035C1 /* KWBlockRaiseMatcher.m in Sources */,
+				32E3575A9536CB741D117DBA6EBC150C /* KWCallSite.m in Sources */,
+				1B880B7F9E1179C74EE666ED7031C24D /* KWCaptureSpy.m in Sources */,
+				CF140EDB27E0D81613EF78E132B0D23E /* KWChangeMatcher.m in Sources */,
+				B04CC1FAFDFA41EACEDAC81FB5FA2E1A /* KWConformToProtocolMatcher.m in Sources */,
+				391BF90859DB31D4A558D706732DF4FF /* KWContainMatcher.m in Sources */,
+				1534AC7B000526A1ACBC728DB3229485 /* KWContainStringMatcher.m in Sources */,
+				DC3EC162647733328D396C9177BB0A6D /* KWContextNode.m in Sources */,
+				91405C26439B58E076BDEF14BB1C9B5E /* KWDeviceInfo.m in Sources */,
+				9965402CD632BD72693CC1E8E33760FE /* KWEqualMatcher.m in Sources */,
+				B73248255BD327AB8883693C5570D70D /* KWExample.m in Sources */,
+				FD677AD2E0A801400AFE773337921313 /* KWExampleSuite.m in Sources */,
+				C800B03CDB011C68C4CA9FEE0796DBAA /* KWExampleSuiteBuilder.m in Sources */,
+				B2B6A46771616C156BD3BDC483A764E8 /* KWExistVerifier.m in Sources */,
+				C015416161F6C15368919102BAB3A6DC /* KWFailure.m in Sources */,
+				B6C52EE7C38E5C22B724F70B5A11E060 /* KWFormatter.m in Sources */,
+				9F39B5A1041D6E616F98FBDFF33C7076 /* KWFutureObject.m in Sources */,
+				CB8C3468AF77128202FA7B7701587B9C /* KWGenericMatcher.m in Sources */,
+				F1C020303266EC09EC264C770DB169A5 /* KWGenericMatchEvaluator.m in Sources */,
+				DE4CFA31A9EB08CD815C95D088F6D939 /* KWGenericMatchingAdditions.m in Sources */,
+				E1CFF55C840ED2E80F857A22A6F402E3 /* KWHaveMatcher.m in Sources */,
+				FEC731DD8CD6A0C74054CCCE16204D25 /* KWHaveValueMatcher.m in Sources */,
+				B9161BFE6F0299FDF02F097ED8EC904E /* KWInequalityMatcher.m in Sources */,
+				414243899C81B333165CB466A2E73821 /* KWIntercept.m in Sources */,
+				B05DCB97D87DBFB9CA8C11810FB93647 /* KWInvocationCapturer.m in Sources */,
+				0402D44147B3DEA1BAFC4EF91577D3FF /* KWItNode.m in Sources */,
+				BE678BBFEF6576AF4BB72AF2C4FB673B /* KWLetNode.m in Sources */,
+				F6C957D37D7F0706199245650139BE59 /* KWMatcher.m in Sources */,
+				4D4DAA92870FEEBDB9DA3E047C0DD239 /* KWMatcherFactory.m in Sources */,
+				E058B31F77ED224A3E918CA35EAC5CAD /* KWMatchers.m in Sources */,
+				D1D60073397B1E4EFDD65B4D2E9F4212 /* KWMatchVerifier.m in Sources */,
+				474964AA92753899777639AB723366B4 /* KWMessagePattern.m in Sources */,
+				0A3AD1AD88F6A611F70FC084722B21C4 /* KWMessageTracker.m in Sources */,
+				F701D25209C4F89C10B4ACE0DBC3393F /* KWMock.m in Sources */,
+				6C59F4AC4CB08BA5DA5F04AE59C5CEA6 /* KWNilMatcher.m in Sources */,
+				140C4A4674B8E0142EA1BE39DCE9C101 /* KWNotificationMatcher.m in Sources */,
+				8C11D687BD5E286E9F76D1F726A7FC20 /* KWNull.m in Sources */,
+				372EC42F7FB975320D68540062E256A2 /* KWObjCUtilities.m in Sources */,
+				C2F9A8B71949A643B4C16757CDB9EAA6 /* KWPendingNode.m in Sources */,
+				C3531590FC8C19F031BA711156BA8F82 /* KWProbePoller.m in Sources */,
+				97EEF22535542FE1B2301BD2B7B7FEFB /* KWReceiveMatcher.m in Sources */,
+				685F2A847E0E5CE1E7C3EDA97C05E0DE /* KWRegisterMatchersNode.m in Sources */,
+				663DADA69252F2E777BCE43FD77B0B62 /* KWRegularExpressionPatternMatcher.m in Sources */,
+				E998F0F10622A3CEA80994C40710B8C2 /* KWRespondToSelectorMatcher.m in Sources */,
+				0A8954F8CF85C7F699C04C73E91A5B38 /* KWSharedExample.m in Sources */,
+				5AD6AFD0A674F7FDFDA6D7BD452BB771 /* KWSharedExampleRegistry.m in Sources */,
+				7993296EA10A8124D949B0185943CC0C /* KWSpec.m in Sources */,
+				73258C154A2B1CF97BC0BAB685705899 /* KWStringContainsMatcher.m in Sources */,
+				66D8BAAB107E25FBC0EB65842279CAF7 /* KWStringPrefixMatcher.m in Sources */,
+				A4C3D9F8954FA07AD437585E1BEA166E /* KWStringUtilities.m in Sources */,
+				9E0EEEC22DBC3D949594AEB606ED00DE /* KWStub.m in Sources */,
+				2194598279B8D7D3190D31A788090D84 /* KWSuiteConfigurationBase.m in Sources */,
+				634278532B85AB8514393C79C0F332B6 /* KWSymbolicator.m in Sources */,
+				BC947B8BE47D3AD0B2D25F8A779E73C2 /* KWUserDefinedMatcher.m in Sources */,
+				09C0387C6B0EA72FFCE430F93D350AF4 /* KWValue.m in Sources */,
+				67B3C173EF40BA3D141885C2625CA232 /* KWWorkarounds.m in Sources */,
+				4B64055584AB1F88524BD84012CFD965 /* NSInvocation+KiwiAdditions.m in Sources */,
+				AF25E5D924F51A3065C9862AB4BFC9B6 /* NSInvocation+OCMAdditions.m in Sources */,
+				330BF28E26860EB055FBA85D740D341B /* NSMethodSignature+KiwiAdditions.m in Sources */,
+				FC251E1F0E59D0212874296CEF5C90F2 /* NSNumber+KiwiAdditions.m in Sources */,
+				AE532310996636161043150B87515528 /* NSObject+KiwiMockAdditions.m in Sources */,
+				1554D6ED36776337FFDEF32A3EF38807 /* NSObject+KiwiSpyAdditions.m in Sources */,
+				A8C9BE424056D289238670BB20A890AF /* NSObject+KiwiStubAdditions.m in Sources */,
+				39505DF6C694599E509E1B6C60958484 /* NSObject+KiwiVerifierAdditions.m in Sources */,
+				0BB33445FD5FB877ED9EF29C70A95EF4 /* NSProxy+KiwiVerifierAdditions.m in Sources */,
+				CA5D1E23D5BEFC0710DC5E3876617B79 /* NSValue+KiwiAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138DF7F837230883C1EC03D8B3ED18FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A4194733AE8CC11D288884A385BA04 /* Pods-LibOpenFortiVPN-iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA9B20E8279ACA1A9682649D1E0A956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BAD668A2B5BFBD7C427E4083DE07A5 /* Pods-LibOpenFortiVPN-iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF48BF7F4945BF1BD44F78C8A6711E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38382C95F957B7B460A225F97314EB82 /* LibOpenFortiVPN-iOS-dummy.m in Sources */,
+				43B4E2C1BF9691AC2DC509EAAD94BC15 /* openfortivpn.m in Sources */,
+				B145A7EF00ECDBAE9F5C2771B47AA8F1 /* posix_spawn.c in Sources */,
+				F73946A95EF21C2645C636B099E26062 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0761CACB7397F3ED4AFB59F376E88867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kiwi;
+			target = D5A4060DC193E269FE369F036E4781A9 /* Kiwi */;
+			targetProxy = 97A28420801A538925306055CCFB5339 /* PBXContainerItemProxy */;
+		};
+		51FAA981C4F961E5D20AB0FA83F53BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LibOpenFortiVPN-iOS_Example";
+			target = F52797B8BC8031C744D59535DA02AC42 /* Pods-LibOpenFortiVPN-iOS_Example */;
+			targetProxy = C03288158BCC4E3F8E27D956F18EA0D5 /* PBXContainerItemProxy */;
+		};
+		695E326AB9B49D57E9FC1EC9857A574C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LibOpenFortiVPN-iOS";
+			target = F81F5FCEE536D5856B11A5F094E9F009 /* LibOpenFortiVPN-iOS */;
+			targetProxy = EF00C2C41FBA786CF99E64A3F632C431 /* PBXContainerItemProxy */;
+		};
+		A1990D1C526940EB9E138DCE4DB8291B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = 912360CFE1DA039035AF6CC17C66423B /* PBXContainerItemProxy */;
+		};
+		A7EAD1085E62900FF25A3749F4B84964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 45CED6BFEE6F31E2F6DE5FADD8197EAA /* PBXContainerItemProxy */;
+		};
+		BAF20AB0D72F782BE0CC159F67139C24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = 9CCDC7BC0ECCDFEB2B7B04D72268A808 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0779AEFF8A9700AE7D623EE7207FAE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FB0E260498B31B406DE4D4B7CD2A25 /* LibOpenFortiVPN-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LibOpenFortiVPN-iOS/LibOpenFortiVPN-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LibOpenFortiVPN-iOS/LibOpenFortiVPN-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LibOpenFortiVPN-iOS/LibOpenFortiVPN-iOS.modulemap";
+				PRODUCT_MODULE_NAME = LibOpenFortiVPN_iOS;
+				PRODUCT_NAME = LibOpenFortiVPN_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3155445294DFA2A53E5E5839AA3EE5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 596FEE98A6940558C8F36FAD7DBCE1AD /* Kiwi.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kiwi/Kiwi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kiwi/Kiwi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kiwi/Kiwi.modulemap";
+				PRODUCT_MODULE_NAME = Kiwi;
+				PRODUCT_NAME = Kiwi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4DA8508DF57FE6BE7071A63645A8298 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		842E62FCE5CA3A81BCD614CEEF70A9E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EE0B8AE6ABC2157E2CCF9152781D05 /* LibOpenFortiVPN-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LibOpenFortiVPN-iOS/LibOpenFortiVPN-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LibOpenFortiVPN-iOS/LibOpenFortiVPN-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LibOpenFortiVPN-iOS/LibOpenFortiVPN-iOS.modulemap";
+				PRODUCT_MODULE_NAME = LibOpenFortiVPN_iOS;
+				PRODUCT_NAME = LibOpenFortiVPN_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A6D4FB0BA09A83A923853908D12F675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FBEC0DF9188438BFADD15E2CEEB238C /* Pods-LibOpenFortiVPN-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LibOpenFortiVPN-iOS_Example/Pods-LibOpenFortiVPN-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LibOpenFortiVPN-iOS_Example/Pods-LibOpenFortiVPN-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90CDF4BD69028606A717DD6AAF756642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4E034981EBA5FDBC7BD8FFDA85620A /* Pods-LibOpenFortiVPN-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LibOpenFortiVPN-iOS_Example/Pods-LibOpenFortiVPN-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LibOpenFortiVPN-iOS_Example/Pods-LibOpenFortiVPN-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9520AC5F0D16AEC7D6ACC4D27ACC023C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7D2549D66BA093109CC62396233EAB0 /* Kiwi.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kiwi/Kiwi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kiwi/Kiwi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kiwi/Kiwi.modulemap";
+				PRODUCT_MODULE_NAME = Kiwi;
+				PRODUCT_NAME = Kiwi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B18DD11C13C1FAEE3FC3B3075703BDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C675D47E779059E1F02B051F60D4ED67 /* OpenSSL-Universal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE7209ACB9BFE579F178A221AEEB0643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F500FF98A02366D82A007D0CD16BDCF3 /* Pods-LibOpenFortiVPN-iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LibOpenFortiVPN-iOS_Tests/Pods-LibOpenFortiVPN-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LibOpenFortiVPN-iOS_Tests/Pods-LibOpenFortiVPN-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF531801B332EDF71FA8F4F9667B86BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB1CF6BDCF0804D924B05E9A1A8C48F /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BFF731F7705B497244B3DFFB07F75F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B383EA4353E53522C9D5D59B6C279739 /* Pods-LibOpenFortiVPN-iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LibOpenFortiVPN-iOS_Tests/Pods-LibOpenFortiVPN-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LibOpenFortiVPN-iOS_Tests/Pods-LibOpenFortiVPN-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F8A7F2D7AA1F5377119E386126C95A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3A4BB44036D3083237DBB71788D6E8 /* OpenSSL-Universal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C2FC429002619765B49219BABDAA94C /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A7F2D7AA1F5377119E386126C95A61 /* Debug */,
+				B18DD11C13C1FAEE3FC3B3075703BDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A22000383830C3EF6A1248BCE59FF2 /* Build configuration list for PBXNativeTarget "Pods-LibOpenFortiVPN-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6D4FB0BA09A83A923853908D12F675 /* Debug */,
+				90CDF4BD69028606A717DD6AAF756642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DE8D8B37EE0F7180D08F34012B6B96 /* Build configuration list for PBXNativeTarget "LibOpenFortiVPN-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0779AEFF8A9700AE7D623EE7207FAE0F /* Debug */,
+				842E62FCE5CA3A81BCD614CEEF70A9E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647F086D3FE9B68F5AE1AFDCB37D38E3 /* Build configuration list for PBXNativeTarget "Pods-LibOpenFortiVPN-iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7209ACB9BFE579F178A221AEEB0643 /* Debug */,
+				BFF731F7705B497244B3DFFB07F75F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */,
+				BF531801B332EDF71FA8F4F9667B86BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D199D06A71607352BB7F4D0A6CDADC67 /* Build configuration list for PBXNativeTarget "Kiwi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9520AC5F0D16AEC7D6ACC4D27ACC023C /* Debug */,
+				3155445294DFA2A53E5E5839AA3EE5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,36 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (3.0.0)
+  - LibOpenFortiVPN-iOS (0.1.0):
+    - OpenSSL-Universal
+  - OpenSSL-Universal (1.1.1100)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - LibOpenFortiVPN-iOS (from `../`)
+  - OpenSSL-Universal
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - Kiwi
+    - OpenSSL-Universal
+
+EXTERNAL SOURCES:
+  LibOpenFortiVPN-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  LibOpenFortiVPN-iOS: e72ec158cf2a68fcf662bfae82af4f9db3c569d6
+  OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
+
+PODFILE CHECKSUM: 665c8a73475536631c7b72b1c9d2731f04fd89f6
+
+COCOAPODS: 1.10.1
