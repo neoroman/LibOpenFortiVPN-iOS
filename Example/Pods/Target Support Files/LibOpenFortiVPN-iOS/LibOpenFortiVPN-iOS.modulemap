@@ -1,6 +1,0 @@
-framework module LibOpenFortiVPN_iOS {
-  umbrella header "LibOpenFortiVPN-iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

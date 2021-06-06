@@ -24,15 +24,44 @@
 #define REVISION "1"
 #define VERSION "0.0.1"
 
-@implementation openfortivpn
+static OpenFortiVPN *sharedInstance;
+
+@interface OpenFortiVPN ()
+@property (nonatomic, assign) id<OpenFortiVPNListener> delegate;
+//- (instancetype)init __attribute__((unavailable("Must use createOpenFortiVPN: instead.")));
+
+@end
+
+@implementation OpenFortiVPN
 
 - (instancetype)init
 {
     self = [super init];
     if (self) {
-        [self running];
+        //[self running];
     }
     return self;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+// MARK: - Public methods (Library APIs)
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
++ (OpenFortiVPN * _Nonnull)shared {
+    if (sharedInstance == nil) {
+        sharedInstance = [[OpenFortiVPN alloc] init];
+    }
+    return sharedInstance;
+}
+
+- (void)setOpenFortiVPNListener:(id <OpenFortiVPNListener> _Nonnull)listener {
+    self.delegate = listener;
+}
+
+- (void)runOpenFortiVPN {
+    [self running];
 }
 
 - (void)running {
@@ -106,6 +135,14 @@
     merge_config(&cfg, &cli_cfg);
     set_syslog(cfg.use_syslog);
     
+    // Set trusted-cert (cert_whitelist)
+    if (cfg.cert_whitelist == NULL) {
+        //cfg.cert_whitelist = strdup("db117aaf1b25cd18c0fb8165d3412a3182f2f0707db653a683189cd7dc3ef1e1");
+        //memcmp("db117aaf1b25cd18c0fb8165d3412a3182f2f0707db653a683189cd7dc3ef1e1", cfg.cert_whitelist, SHA256STRLEN - 1);
+        if (add_trusted_cert(&cfg, "db117aaf1b25cd18c0fb8165d3412a3182f2f0707db653a683189cd7dc3ef1e1"))
+            log_warn("Could not add certificate digest to whitelist.\n");
+    }
+    
     // Set default UA
     if (cfg.user_agent == NULL)
         cfg.user_agent = strdup("Mozilla/5.0 SV1");
@@ -141,11 +178,14 @@
     if (cfg.otp[0] != '\0')
         log_debug("One-time password = \"%s\"\n", cfg.otp);
     
+    /* Temporarily comment-out by Henry, 2021/06/06 */
+    /*
     if (geteuid() != 0) {
         log_error("This process was not spawned with root privileges, which are required.\n");
         ret = EXIT_FAILURE;
         goto exit;
     }
+     */
     
     do {
         if (run_tunnel(&cfg) != 0)
@@ -162,7 +202,7 @@ user_error:
     fprintf(stderr, "openfortivpn error...!");
 exit:
     destroy_vpn_config(&cfg);
-    exit(ret);
+    //exit(ret);
 }
 
 @end
